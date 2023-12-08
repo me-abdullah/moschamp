@@ -1,0 +1,63 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #115740;
+  border-radius: 5px;
+}
+::selection {
+  background: #115740;
+  color: #fff;
+}
+.qt-background {
+  background: url('../public/assest/champ.png') no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.qt-background2 {
+  background: linear-gradient(45deg, rgba(17,87,64,0.6),rgba(17,87,40,0.7)),
+   url('../public/assest/new.jpg') no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.qt-background3 {
+  background: linear-gradient(45deg, rgba(17,87,64,0.6),rgba(17,87,40,0.7)),
+  url('../public/assest/champ2.jpg') no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+}
+.large_circle,
+.small_circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #115740;
+  position: fixed;
+  pointer-events: none;
+  transition: transform 0.1s;
+}
+.small_circle {
+  width: 7px;
+  height: 7px;
+  background-color: #000;
+}
