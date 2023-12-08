@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
+
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -76,7 +77,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full lg:h-screen">
+    <div className="w-full min-h-screen lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className=" text-center text-3xl text-[#115740] font-bold">
           Get In Touch
@@ -196,32 +197,30 @@ export default function Contact() {
                     name="role"
                     value={formData.role}
                     onChange={handleInputChange}
-                   
                      className="border-2 rounded-lg p-3 flex border-gray-300">
                       <option>Teacher</option>
                       <option>Student</option>
                     </select>
                   </div>
                 </div>
-                <div className="flex flex-col py-2">
-                  <label className="uppercase text-sm py-2">Country</label>
-                  <select
-                  id="country"
-                  name="country"
-                  value={formData.country}
-                  onChange={handleInputChange}
-                    className="border-2 rounded-lg p-3 flex border-gray-300"
-                  >
-                    <option value="" disabled>
-                      Select a country
-                    </option>
-                    {Countries.map((country) => (
-                      <option key={country.code} value={country.code}>
-                        {country.name}
-                      </option>
-                    ))}
-                  </select>
-                </div>
+               <div className="flex flex-col">
+  <label className="uppercase text-sm py-2">Country</label>
+  <select
+    id="country"
+    name="country"
+    value={formData.country}
+    onChange={handleInputChange}
+    className="border-2 rounded-lg p-3 flex border-gray-300 w-full"
+  >
+    <option value="">Select a country</option>
+    {Countries.map((country) => (
+      <option key={country.code} value={country.code}>
+        {country.name}
+      </option>
+    ))}
+  </select>
+</div>
+
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
