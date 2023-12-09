@@ -18,10 +18,10 @@ import Promotion from "./components/Promotion/Promotion";
 import Rules from "./components/Rules/Rules";
 import Win from "./components/Win/Win";
 
-function App() {
 
+function App() {
   const [isScaling, setIsScaling] = useState(false);
-  
+
   return (
     <>
       <BrowserRouter>
@@ -37,7 +37,8 @@ function App() {
         <Pastcomp />
         <Fame />
         <Contact />
-        <Footer /> 
+        <Footer />
+        
       </BrowserRouter>
     </>
   );

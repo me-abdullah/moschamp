@@ -2,7 +2,7 @@ import React from "react";
 
 function Promotion() {
   return (
-    <div className="qt-box qt-background2 flex items-center">
+    <div className="qt-box qt-background2 flex items-center" id="promotion">
       <div className="container">
         <div className="row">
           <div className="col-md-8 ml-auto mr-auto text-center text-xl font-medium text-white">
@@ -11,11 +11,11 @@ function Promotion() {
             </h2>
             <span className="lead">
               Certiport wants educators to have the materials they need to
-              promote the MOS U.S. National Championship in their classroom,
+              promote the MOS P.K National Championship in their classroom,
               school, or state. Visit our Media page to request promotional
               items, view videos, and download your own posters, fliers, press
               releases, and other materials to get your students excited about
-              the MOS U.S. National Championship.
+              the MOS P.K National Championship.
             </span>
           </div>
         </div>

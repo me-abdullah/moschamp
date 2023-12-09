@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
 import { ToastContainer, toast } from "react-toastify";
@@ -34,19 +34,18 @@ export default function Contact() {
 
   const handleInputChange = (e) => {
     const { name, value, type, checked } = e.target;
-    if (name === 'emailAddress' && type === 'email') {
-      if (value.trim() !== '' && !validateEmail(value)) {
-        toast.error('Please enter a valid email address.');
+    if (name === "emailAddress" && type === "email") {
+      if (value.trim() !== "" && !validateEmail(value)) {
+        toast.error("Please enter a valid email address.");
         setIsValid(false);
       } else {
         setIsValid(true);
       }
     }
 
-
     setFormData((prevData) => ({
       ...prevData,
-      [name]: type === 'checkbox' ? checked : value,
+      [name]: type === "checkbox" ? checked : value,
     }));
     setIsValid(true);
   };
@@ -69,7 +68,7 @@ export default function Contact() {
       toast.error(
         `Please fill in all required fields: ${missingFields.join(", ")}`
       );
-      setIsValid(false); 
+      setIsValid(false);
       return;
     }
     setIsValid(true);
@@ -77,7 +76,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full min-h-screen lg:h-screen">
+    <div className="w-full min-h-screen lg:h-screen" id="contact">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className=" text-center text-3xl text-[#115740] font-bold">
           Get In Touch
@@ -94,10 +93,10 @@ export default function Contact() {
                 />
               </div>
               <div>
-                <h2 className="py-2 my-5">MOS U.S. National Championship</h2>
+                <h2 className="py-2 my-5">MOS P.K National Championship</h2>
 
                 <p className="py-4 text-justify">
-                  MOS U.S. National Championship: A pinnacle of skill, honor,
+                  MOS P.K National Championship: A pinnacle of skill, honor,
                   and competition, uniting expertise nationwide. Champions rise,
                   embodying excellence in this prestigious American contest.
                 </p>
@@ -118,7 +117,7 @@ export default function Contact() {
                     <AiOutlineMail />
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
+                   <FaTwitter />
                   </div>
                 </div>
               </div>
@@ -142,9 +141,9 @@ export default function Contact() {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Last Name</label>
                     <input
-                       name="lastName"
-                       value={formData.lastName}
-                       onChange={handleInputChange}
+                      name="lastName"
+                      value={formData.lastName}
+                      onChange={handleInputChange}
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       autoComplete="off"
@@ -157,9 +156,9 @@ export default function Contact() {
                       Email Address
                     </label>
                     <input
-                       name="emailAddress"
-                       value={formData.emailAddress}
-                       onChange={handleInputChange}
+                      name="emailAddress"
+                      value={formData.emailAddress}
+                      onChange={handleInputChange}
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="email"
                       autoComplete="off"
@@ -183,9 +182,9 @@ export default function Contact() {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Title</label>
                     <input
-                     name="title"
-                     value={formData.title}
-                     onChange={handleInputChange}
+                      name="title"
+                      value={formData.title}
+                      onChange={handleInputChange}
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       autoComplete="off"
@@ -193,51 +192,52 @@ export default function Contact() {
                   </div>
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Role</label>
-                    <select 
-                    name="role"
-                    value={formData.role}
-                    onChange={handleInputChange}
-                     className="border-2 rounded-lg p-3 flex border-gray-300">
+                    <select
+                      name="role"
+                      value={formData.role}
+                      onChange={handleInputChange}
+                      className="border-2 rounded-lg p-3 flex border-gray-300"
+                    >
                       <option>Teacher</option>
                       <option>Student</option>
                     </select>
                   </div>
                 </div>
-               <div className="flex flex-col">
-  <label className="uppercase text-sm py-2">Country</label>
-  <select
-    id="country"
-    name="country"
-    value={formData.country}
-    onChange={handleInputChange}
-    className="border-2 rounded-lg p-3 flex border-gray-300 w-full"
-  >
-    <option value="">Select a country</option>
-    {Countries.map((country) => (
-      <option key={country.code} value={country.code}>
-        {country.name}
-      </option>
-    ))}
-  </select>
-</div>
+                <div className="flex flex-col">
+                  <label className="uppercase text-sm py-2">Country</label>
+                  <select
+                    id="country"
+                    name="country"
+                    value={formData.country}
+                    onChange={handleInputChange}
+                    className="border-2 rounded-lg p-3 flex border-gray-300 w-full"
+                  >
+                    <option value="">Select a country</option>
+                    {Countries.map((country) => (
+                      <option key={country.code} value={country.code}>
+                        {country.name}
+                      </option>
+                    ))}
+                  </select>
+                </div>
 
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
-                   name="message"
-                   value={formData.message}
-                   onChange={handleInputChange}
+                    name="message"
+                    value={formData.message}
+                    onChange={handleInputChange}
                     className="border rounded-lg p-3 border-gray-300"
                     rows={5}
                     autoComplete="off"
                   ></textarea>
                   <div className="flex items-center">
                     <input
-                       id="link-checkbox"
-                       name="agreeTerms"
-                       type="checkbox"
-                       checked={formData.agreeTerms}
-                       onChange={handleInputChange}
+                      id="link-checkbox"
+                      name="agreeTerms"
+                      type="checkbox"
+                      checked={formData.agreeTerms}
+                      onChange={handleInputChange}
                       className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
                     />
                     <label
@@ -261,7 +261,7 @@ export default function Contact() {
                       consent to the collection, use, transfer, and disclosure
                       of my personal data to Certiport and its authorized
                       third-party service providers that may be located in the
-                      U.S. or outside of the country where I am located.
+                      P.K or outside of the country where I am located.
                     </label>
                   </div>
                 </div>

@@ -8,7 +8,7 @@ function Win() {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600 body-font" id="win">
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4">

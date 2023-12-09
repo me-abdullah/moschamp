@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { Link } from "react-scroll";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -24,55 +24,111 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className={shadow ? 'fixed w-full h-20 shadow-lg z-[100] border-b-4 border-green-600 bg-white bg-opacity-40 py-2 backdrop-blur-md transition-all duration-300 ease-in-out dark:bg-slate-700 dark:bg-opacity-40' : 'fixed w-full h-20 z-[100] bg-white'}>
+    <div
+      className={
+        shadow
+          ? "fixed w-full h-20 shadow-lg z-[100] border-b-4 border-green-600 bg-white bg-opacity-40 py-2 backdrop-blur-md transition-all duration-300 ease-in-out dark:bg-slate-700 dark:bg-opacity-40"
+          : "fixed w-full h-20 z-[100] bg-white"
+      }
+    >
       <div className="flex justify-between md:justify-around items-center w-full h-full px-2 2xl:px-16">
         <img src="/assest/logo.png" alt="/" width="100" height="40" />
         <div>
           <ul className="hidden md:flex font-bold">
-            <a href="/">
+            <Link to="/hero" spy={true} smooth={true} offset={50} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </a>
-            <a href="/#about">
+            </Link>
+            <Link
+              to="about"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </a>
-            <ul className="list-none">
-             <li className="inline-block ml-10 text-sm uppercase relative group">
-                <a href="/#skills">Rankings</a>
-                <ul className="absolute hidden bg-white mt-1 p-4 rounded-md shadow-md group-hover:block">
-                  <li>
-                    <a href="/#projects">Prizes</a>
-                  </li>
-                  <li className="mt-3">
-                    <a href="/#contact">Deadline</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>         
-            <a href="/#contact">
-              <li className="ml-10 text-sm uppercase hover:border-b">
-                Promote
-              </li>
-            </a>
+            </Link>
             <ul className="list-none">
               <li className="inline-block ml-10 text-sm uppercase relative group">
-                <a href="/#contact">Rules</a>
-                <ul className="absolute hidden bg-white mt-3 p-4 rounded-md shadow-md group-hover:block">
+                <Link
+                  to="skills"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Rankings
+                </Link>
+                <ul className="absolute hidden bg-white mt-1 p-4 rounded-md shadow-md group-hover:block">
                   <li>
-                    <a href="/faq">FAQ</a>
+                    <Link
+                      to="win"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      Prizes
+                    </Link>
+                  </li>
+                  <li className="mt-3">
+                    <Link
+                      to="deadline"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      Deadline
+                    </Link>
                   </li>
                 </ul>
               </li>
             </ul>
-            <a href="/#contact">
+            <Link
+              to="promotion"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                Promote
+              </li>
+            </Link>
+            <ul className="list-none">
+              <li className="inline-block ml-10 text-sm uppercase relative group">
+                <Link
+                  to="rule"
+                  spy={true}
+                  smooth={true}
+                  offset={50}
+                  duration={500}
+                >
+                  Rules
+                </Link>
+                <ul className="absolute hidden bg-white mt-3 p-4 rounded-md shadow-md group-hover:block">
+                  <li>
+                    <a href="/#faq">FAQ</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <Link to="fund" spy={true} smooth={true} offset={50} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Funding
               </li>
-            </a>
-            <a href="/#contact">
+            </Link>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
-            </a>
+            </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
@@ -93,12 +149,7 @@ export default function Navbar() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <img
-                src="/assest/logo.png"
-                alt="/"
-                width="80"
-                height="30"
-              />
+              <img src="/assest/logo.png" alt="/" width="80" height="30" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"

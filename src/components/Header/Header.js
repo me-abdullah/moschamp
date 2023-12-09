@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <div
-      id="about"
+      id="header"
       className="w-full md:h-50 p-2 flex items-center py-16 relative bg-[#acdbcc]"
       >
       <section className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center h-2/3 relative z-10">
@@ -21,12 +21,12 @@ export default function Header() {
             <br className="hidden lg:inline-block" />
             <span className="font-bold text-4xl text-[#115740]">
               {" "}
-              U.S. National Champion
+              P.K National Champion
             </span>
           </h1>
           <p className="mb-6 leading-relaxed  text-justify">
             Engage in the pinnacle of Microsoft Office mastery by participating
-            in Certiport's U.S. National Championship for MS Office Specialists.
+            in Certiport's P.K National Championship for MS Office Specialists.
             Elevate your skills and compete for excellence on a national stage.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center">

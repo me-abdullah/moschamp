@@ -9,7 +9,7 @@ function Deadline() {
   }, []);
 
   return (
-    <section className=" overflow-hidden">
+    <section className=" overflow-hidden" id="deadline">
       <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4">
         When is the deadline to enter?
       </h1>
@@ -27,10 +27,10 @@ function Deadline() {
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">
-                First day to enter the U.S. National Championship
+                First day to enter the P.K National Championship
               </h2>
               <p className="leading-relaxed">
-                Get Certified! The First day to enter the 2023 MOS U.S. National
+                Get Certified! The First day to enter the 2023 MOS P.K National
                 Championship.
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
@@ -63,7 +63,7 @@ function Deadline() {
               </h2>
               <p className="leading-relaxed">
                 Last day to enter your Word, Excel or Power Point Exam into the
-                2024 MOS U.S. National Championship Fall Qualifier.
+                2024 MOS P.K National Championship Fall Qualifier.
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
@@ -95,7 +95,7 @@ function Deadline() {
               </h2>
               <p className="leading-relaxed">
                 Last day to enter your Word, Excel or Power Point Exam into the
-                2024 MOS U.S. National Championship Spring Qualifier.
+                2024 MOS P.K National Championship Spring Qualifier.
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
@@ -126,7 +126,7 @@ function Deadline() {
                 Time to Compete!
               </h2>
               <p className="leading-relaxed">
-                Certiport's MOS U.S. National Championship in Orlando Florida.
+                Certiport's MOS P.K National Championship in Orlando Florida.
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
