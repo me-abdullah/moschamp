@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
+
 import { Link } from "react-scroll";
+
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -27,15 +29,21 @@ export default function Navbar() {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-lg z-[100] border-b-4 border-green-600 bg-white bg-opacity-40 py-2 backdrop-blur-md transition-all duration-300 ease-in-out dark:bg-slate-700 dark:bg-opacity-40"
+          ? "fixed w-full h-20 shadow-lg z-[100] border-b-4 border-green-600 text-white bg-white bg-opacity-40 py-2 backdrop-blur-md transition-all duration-300 ease-in-out dark:bg-slate-700 dark:bg-opacity-40"
           : "fixed w-full h-20 z-[100] bg-white"
       }
     >
       <div className="flex justify-between md:justify-around items-center w-full h-full px-2 2xl:px-16">
         <img src="/assest/logo.png" alt="/" width="100" height="40" />
         <div>
-          <ul className="hidden md:flex font-bold">
-            <Link to="/hero" spy={true} smooth={true} offset={50} duration={500}>
+          <ul className="hidden md:flex font-bold items-baseline">
+            <Link
+              to="header"
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
+            >
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
             <Link
@@ -131,7 +139,7 @@ export default function Navbar() {
             </Link>
           </ul>
           <div onClick={handleNav} className="md:hidden">
-            <AiOutlineMenu size={25} />
+            <AiOutlineMenu size={25} color="black"/>
           </div>
         </div>
       </div>
@@ -143,8 +151,8 @@ export default function Navbar() {
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500"
-              : "fixed left-[100%] top-0  p-10 ease-in duration-500"
+              ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen text-black bg-[#ecf0f3] p-10 ease-in duration-500"
+              : "fixed left-[100%] top-0   p-10 ease-in duration-500"
           }
         >
           <div>
@@ -154,7 +162,7 @@ export default function Navbar() {
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
               >
-                <AiOutlineClose />
+                <AiOutlineClose color="black"/>
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
@@ -164,41 +172,87 @@ export default function Navbar() {
             </div>
           </div>
           <div className="py-4 flex flex-col">
-            <ul className="uppercase">
-              <a href="/">
-                <li className="py-4 text-sm">Home</li>
-              </a>
-              <a href="/#about">
+            <ul className="uppercase font-bold">
+              <Link
+                to="header"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                <li className=" text-sm">Home</li>
+              </Link>
+              <Link
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 <li className="py-4 text-sm">About</li>
-              </a>
+              </Link>
               <ul className="list-none">
                 <li className="inline-block relative group">
-                  <a href="/#skills" className="py-4 text-sm">
+                  <Link
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className="py-4 text-sm"
+                  >
                     Rankings
-                  </a>
+                  </Link>
                   <ul className="absolute hidden bg-white mt-1 p-2 rounded-md shadow-md group-hover:block">
                     <li>
-                      <a href="/#projects" className="py-2 text-sm">
+                      <Link
+                        to="win"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        className="py-4 text-sm"
+                      >
                         Prizes
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/#contact" className="py-2 text-sm">
+                      <Link
+                        to="deadline"
+                        spy={true}
+                        smooth={true}
+                        offset={50}
+                        duration={500}
+                        className="py-4 my-2 text-sm"
+                      >
                         Deadline
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </li>
               </ul>
 
-              <a href="/#projects">
+              <Link
+                to="promotion"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 <li className="py-4 text-sm">Promote</li>
-              </a>
+              </Link>
               <ul className="list-none">
                 <li className="inline-block relative group">
-                  <a href="/#contact" className="py-4 text-sm">
+                  <Link
+                    to="rule"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                    className="py-4 text-sm"
+                  >
                     Rules
-                  </a>
+                  </Link>
                   <ul className="absolute hidden bg-white mt-1 p-2 rounded-md shadow-md group-hover:block">
                     <li>
                       <a href="/faq" className="py-2 text-sm">
@@ -208,12 +262,27 @@ export default function Navbar() {
                   </ul>
                 </li>
               </ul>
-              <a href="/#contact">
-                <li className="py-4 text-sm">Contact</li>
-              </a>
+              <Link
+                to="fund"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                <li className="py-4 text-sm">Funding</li>
+              </Link>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                <li className=" text-sm">Contact</li>
+              </Link>
             </ul>
             <div className="pt-40">
-              <p className="uppercase tracking-widest text-[#115740]">
+              <p className="uppercase tracking-widest text-[#115740] font-bold">
                 Lets Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:2-[80%]">
