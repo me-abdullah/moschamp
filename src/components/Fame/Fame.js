@@ -1,14 +1,16 @@
 import React from "react";
 import { useEffect } from "react";
-
+import { useNavigate } from "react-router-dom";
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Fame() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
   return (
-    <section className="text-gray-600 body-font">
+    <section className="text-gray-600">
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div className="w-full sm:p-4 px-4 mb-6" data-aos="fade-right">
@@ -23,7 +25,7 @@ function Fame() {
               our e-book “Where Are They Now: Stories of Microsoft Office
               Specialists”.
             </div>
-            <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
+            <button onClick={() => navigate('/fame')} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
               Find Out More!
             </button>
           </div>

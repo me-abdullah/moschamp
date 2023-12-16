@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 function Pastcomp() {
+  const navigate = useNavigate();
   return (
     <div className="qt-box qt-background3 flex items-center">
       <div className="container">
@@ -15,7 +16,7 @@ function Pastcomp() {
           </div>
         </div>
         <div className="text-center">
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
+          <button onClick={() => navigate('/past')} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
             View Past Competitions
           </button>
         </div>

@@ -1,46 +1,40 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import { useState } from "react";
 
 import "./App.css";
 
-import Pastcomp from "./components/Past Comp/Pastcomp";
-import About from "./components/About/About";
-import Certified from "./components/Certified/Certified";
-import Contact from "./components/Contact/Contact";
 import Cursor from "./components/Cursor/Cursor";
-import Deadline from "./components/Deadline/Deadline";
-import Fame from "./components/Fame/Fame";
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
-import Promotion from "./components/Promotion/Promotion";
-import Rules from "./components/Rules/Rules";
-import Win from "./components/Win/Win";
-
-
+import Home from "./pages/Home";
+import Rules from "./pages/Rules";
+import Faq from "./pages/Faq";
+import Promote from "./pages/Promote";
+import Past from "./pages/Past";
+import Famee from "./pages/Famee";
+import About from "./pages/About";
+import ContactPage from "./pages/ContactPage";
 function App() {
   const [isScaling, setIsScaling] = useState(false);
 
   return (
-    <>
-      <BrowserRouter>
-        <Cursor scaling={isScaling} />
-        <Navbar />
-        <Header />
-        <About />
-        <Certified />
-        <Win />
-        <Deadline />
-        <Promotion />
-        <Rules />
-        <Pastcomp />
-        <Fame />
-        <Contact />
-        <Footer />
-        
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Cursor scaling={isScaling} />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/rules" element={<Rules />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/promote" element={<Promote />} />
+        <Route path="/past" element={<Past />} />
+        <Route path="/fame" element={<Famee />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<ContactPage />} />
+
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
 

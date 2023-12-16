@@ -66,7 +66,7 @@ export default function Navbar() {
                 >
                   Rankings
                 </Link>
-                <ul className="absolute hidden bg-white mt-1 p-4 rounded-md shadow-md group-hover:block">
+                <ul className="absolute hidden bg-white mt-1 p-4 rounded-md text-black shadow-md group-hover:block">
                   <li>
                     <Link
                       to="win"
@@ -114,7 +114,7 @@ export default function Navbar() {
                 >
                   Rules
                 </Link>
-                <ul className="absolute hidden bg-white mt-3 p-4 rounded-md shadow-md group-hover:block">
+                <ul className="absolute hidden text-black bg-white mt-3 p-4 rounded-md shadow-md group-hover:block">
                   <li>
                     <a href="/#faq">FAQ</a>
                   </li>

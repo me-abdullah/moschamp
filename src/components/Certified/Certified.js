@@ -21,7 +21,7 @@ const Certified = () => {
         </div>
         <div className="text-center">
           <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
-            More about Certified
+            <a href="https://certified.certiport.com/conference/"> More about Certified</a>
           </button>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
-
+import { useNavigate } from "react-router-dom";
 function Promotion() {
+  const navigate = useNavigate();
   return (
     <div className="qt-box qt-background2 flex items-center" id="promotion">
       <div className="container">
@@ -20,7 +21,7 @@ function Promotion() {
           </div>
         </div>
         <div className="text-center">
-          <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
+          <button onClick={() => navigate('/promote')} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
             Lets Promote
           </button>
         </div>

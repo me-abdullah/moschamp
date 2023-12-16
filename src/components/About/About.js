@@ -1,9 +1,12 @@
 import React from "react";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
 function About() {
+  const navigate = useNavigate();
+
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
@@ -29,7 +32,7 @@ function About() {
             event continue on to the P.K National Championship.
           </p>
           <div className="flex justify-center">
-            <button className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 font-bold rounded text-lg">
+            <button onClick={() => navigate('/about')} className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 font-bold rounded text-lg">
               Compete in your state
             </button>
           </div>

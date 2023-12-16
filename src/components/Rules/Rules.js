@@ -1,9 +1,11 @@
 import React from "react";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Rules() {
+  const navigate = useNavigate();
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
@@ -26,7 +28,7 @@ function Rules() {
               Learn the official rules to participate in the MOS P.K National
               Championship.
             </p>
-            <button className="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 font-bold rounded">
+            <button onClick={() => navigate('/rules')} className="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 font-bold rounded">
               Rules
             </button>
           </div>
@@ -45,7 +47,7 @@ function Rules() {
               Want to learn more about the MOS P.K National Championship? Visit
               our Frequently Asked Questions page for more information.
             </p>
-            <button className="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 font-bold rounded">
+            <button onClick={() => navigate('/faq')} className="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 font-bold rounded">
               FAQ
             </button>
           </div>
