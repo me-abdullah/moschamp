@@ -1,9 +1,11 @@
-import React from 'react'
-import Contact from '../components/Contact/Contact';
+import React from "react";
+import Contact from "../components/Contact/Contact";
 function ContactPage() {
   return (
-    <Contact/>
-  )
+    <div style={{ paddingTop: "70px" }}>
+      <Contact />
+    </div>
+  );
 }
 
 export default ContactPage;

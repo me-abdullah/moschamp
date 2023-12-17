@@ -15,6 +15,7 @@ import Past from "./pages/Past";
 import Famee from "./pages/Famee";
 import About from "./pages/About";
 import ContactPage from "./pages/ContactPage";
+import Funding from "./pages/Funding";
 function App() {
   const [isScaling, setIsScaling] = useState(false);
 
@@ -31,6 +32,7 @@ function App() {
         <Route path="/fame" element={<Famee />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/funding" element={<Funding />} />
 
       </Routes>
       <Footer />

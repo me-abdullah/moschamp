@@ -121,7 +121,7 @@ export default function Navbar() {
                 </ul>
               </li>
             </ul>
-            <Link to="fund" spy={true} smooth={true} offset={50} duration={500}>
+            <Link to="/funding" spy={true} smooth={true} offset={50} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Funding
               </li>

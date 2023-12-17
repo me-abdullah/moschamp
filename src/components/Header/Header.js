@@ -1,9 +1,11 @@
 import React from "react";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
 import 'aos/dist/aos.css';
 export default function Header() {
+  const navigate = useNavigate();
 
   useEffect(() => {
     Aos.init({duration: 1000})
@@ -30,7 +32,7 @@ export default function Header() {
             Elevate your skills and compete for excellence on a national stage.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <button className="w-full md:w-auto inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg font-bold text-center mt-2 md:mt-0">
+            <button onClick={() => navigate('/contact')} className="w-full md:w-auto inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg font-bold text-center mt-2 md:mt-0">
               Apply Now!
             </button>
             <div className="md:ml-4 mt-2 md:mt-0">
