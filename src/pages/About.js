@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <>
-      <img src='/assest/about.png' alt='about' className='w-full h-full md:pt-0 pt-[10vh]' />
+      <img src='/assest/about.png' alt='about' className='w-full h-full md:pt-0 pt-[10vh]' loading='lazy'/>
       <div className="lg:w-2/3 mx-auto text-center my-10">
         <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">
           Competition details
@@ -12,22 +12,22 @@ const About = () => {
         {/* Welcome Section */}
         <section>
           <p className="leading-relaxed text-xl text-[#115740] font-bold">
-            Welcome to the 2024 Microsoft Office Specialist U.S. National Championship
+            Welcome to the 2024 Microsoft Office Specialist P.K. National Championship
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            Prove your skills in Microsoft Word, Excel and PowerPoint and you could win an invitation to compete in the U.S. National Championship finals in Orlando, Florida, at the Hilton Lake Buena Vista Hotel! <br />
+            Prove your skills in Microsoft Word, Excel and PowerPoint and you could win an invitation to compete in the P.K. National Championship finals in Orlando, Florida, at the Hilton Lake Buena Vista Hotel! <br />
 
-            The Microsoft Office Specialist U.S. National Championship is a national competition that tests students’ skills on Microsoft Office applications. Participating in this competition provides an excellent opportunity for you to showcase your Microsoft Office Word, Excel, and PowerPoint skills, expand your network, make new friends, and prove your skills.
+            The Microsoft Office Specialist P.K. National Championship is a national competition that tests students’ skills on Microsoft Office applications. Participating in this competition provides an excellent opportunity for you to showcase your Microsoft Office Word, Excel, and PowerPoint skills, expand your network, make new friends, and prove your skills.
           </p>
         </section>
 
         {/* Competition Process Section */}
         <section>
           <p className="leading-relaxed text-xl text-[#115740] font-bold">
-            How Do Students Compete in the Microsoft Office Specialist U.S. National Championship?
+            How Do Students Compete in the Microsoft Office Specialist P.K. National Championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            The process is simple! To receive an invitation to the Microsoft Office Specialist U.S. National Championship (June 17-19, 2024), students between the ages of 13 and 22 must earn the highest score in their state in one of the following categories:
+            The process is simple! To receive an invitation to the Microsoft Office Specialist P.K. National Championship (June 17-19, 2024), students between the ages of 13 and 22 must earn the highest score in their state in one of the following categories:
           </p>
           <ul className='text-gray-600 list-disc text-left'>
             <li>Microsoft Word (Office 2019)</li>
@@ -42,14 +42,14 @@ const About = () => {
 
                     In the case that two or more students submit the same high score, the exam time will be used as a tie-breaker (the exam taken in the least amount of time will win). Students can and are encouraged to retake their Microsoft Office Specialist exam(s) to improve their score and time. There is no limit to the number of times a student may take an eligible Microsoft Office Specialist exam, regardless of the pass/fail outcome, as long as the student is not in violation of the exam retake policy. <br />
 
-                    Previous participants of the Microsoft Office Specialist U.S. National Championship round can compete in this year’s championship ONLY if they are competing in a different exam. For example, if a student competed at a prior U.S. National Championship round in Microsoft Word (Office 2019) or Microsoft Word (Microsoft 365 Apps), they can participate this year in any Microsoft Excel or PowerPoint exam but they cannot participate in any Microsoft Word exam.
+                    Previous participants of the Microsoft Office Specialist P.K. National Championship round can compete in this year’s championship ONLY if they are competing in a different exam. For example, if a student competed at a prior P.K. National Championship round in Microsoft Word (Office 2019) or Microsoft Word (Microsoft 365 Apps), they can participate this year in any Microsoft Excel or PowerPoint exam but they cannot participate in any Microsoft Word exam.
                 </p>
                 <p className="leading-relaxed text-xl text-[#115740] my-5 font-bold">
                     Students can enter their exam scores in one of two ways:
                 </p>
                 <ol className='text-gray-600'>
                     <li>Enter an Exam at the Time of Testing: While sitting for a qualifying MOS exam, you will be prompted to participate in the Championship. Before the exam begins, a screen will appear with competition information and an opt-in checkbox. To submit your exam into the Championship, check the box and then select the OK button. If you pass, your exam will automatically be submitted into the Championship. If you do not want to submit your exam, then you can opt out of the competition by not checking the checkbox.</li>
-                    <li>Enter an Exam You’ve Already Completed: Did you complete and pass a qualifying exam but did not select to enter it into the Championship? You can still enter your exam for a chance to be the next U.S. National Champion! Simply follow these steps:
+                    <li>Enter an Exam You’ve Already Completed: Did you complete and pass a qualifying exam but did not select to enter it into the Championship? You can still enter your exam for a chance to be the next P.K. National Champion! Simply follow these steps:
                     </li>
                 </ol>
                 <ul className='text-gray-600 list-disc text-left'>
@@ -80,7 +80,7 @@ const About = () => {
             Check the leaderboards below to see how your school stacks up! Don’t see your state listed? Email MOSChampionship@pearson.com for a list of the top schools in your state.
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            If you have any questions about the 2024 Microsoft Office Specialist U.S. National Championship, please speak watch the Competition 101 Webinar or email MOSchampionship@pearson.com.
+            If you have any questions about the 2024 Microsoft Office Specialist P.K. National Championship, please speak watch the Competition 101 Webinar or email MOSchampionship@pearson.com.
           </p>
         </section>
 

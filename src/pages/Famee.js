@@ -1,4 +1,5 @@
 import React from 'react';
+
 import Contact from '../components/Contact/Contact';
 
 function Famee() {
@@ -9,6 +10,7 @@ function Famee() {
         src="/assest/fame.jpg"
         alt="about"
         className="w-full h-full md:pt-0 pt-[10vh]"
+        loading='lazy'
       />
       <div className="lg:w-2/3 mx-auto text-center my-10">
         

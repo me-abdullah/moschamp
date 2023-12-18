@@ -7,6 +7,7 @@ function Funding() {
         src="/assest/pastt-champ.jpg"
         alt="about"
         className="w-full h-full md:pt-0 pt-[10vh]"
+        loading="lazy"
       />
       <div className="lg:w-2/3 mx-auto text-center my-10">
         <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">
@@ -16,16 +17,16 @@ function Funding() {
         {/* Welcome Section */}
         <section>
           <p className="leading-relaxed text-xl text-[#115740] font-bold">
-            For students who qualify for U.S. National Championship
+            For students who qualify for P.K. National Championship
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            Qualifying for the U.S. National Championship is a big deal! While
-            the U.S. National Championship conference pass and food are free for
+            Qualifying for the P.K. National Championship is a big deal! While
+            the P.K. National Championship conference pass and food are free for
             all students and one chaperone, the hotel and travel to the
             championship must be funded by the attendees. In 2024, it’s
             estimated that for flights (depending on the student’s location) and
             hotel costs ($165 per night), it could cost around $1,000 for a
-            student to travel to the U.S. National Championship. However,
+            student to travel to the P.K. National Championship. However,
             Certiport has a guide to help students fund their trip so that they
             can compete at the championship. If a student took their qualifying
             exam at an academic institution, they should work with their
@@ -48,7 +49,7 @@ function Funding() {
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             Certiport offers travel scholarships to select students. To apply,
-            students must qualify for the U.S. National Championship and
+            students must qualify for the P.K. National Championship and
             complete the application form. Application forms will be sent
             directly to students after they receive their official invitation.
           </p>
@@ -57,15 +58,15 @@ function Funding() {
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             Go Fund Me offers various donors an opportunity to support students’
-            travel to the U.S. National Championships. Students can create a
+            travel to the P.K. National Championships. Students can create a
             digital fundraiser that can easily be shared on social media and
             found by donors looking to support competitors. Students should
             describe what the competition is, why they want to attend, and how
             it will make a difference in their academic and professional
             careers. <br />
             When creating a Go Fund Me page, ensure to have the full name of the
-            event in the title (“Microsoft Office Specialist U.S. National
-            Championship” or “Certiport’s Adobe Certified Professional U.S.
+            event in the title (“Microsoft Office Specialist P.K. National
+            Championship” or “Certiport’s Adobe Certified Professional P.K.
             National Championship”), as this will help donors find their page
             more easily.
           </p>

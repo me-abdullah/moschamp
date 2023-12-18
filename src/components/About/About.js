@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+
 import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
@@ -17,6 +18,7 @@ function About() {
           className="border-4 border-green-500 lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded "
           alt="hero"
           src="/assest/new.jpg" data-aos="flip-right"
+          loading="lazy"
         />
         <div className="text-center lg:w-2/3 w-full">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 text-[#115740] font-bold" data-aos="fade-up">

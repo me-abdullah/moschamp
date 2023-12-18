@@ -1,21 +1,34 @@
 import React from "react";
 import { useEffect } from "react";
+
 import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
 import 'aos/dist/aos.css';
+
+import { useSpring, animated } from "react-spring";
 export default function Header() {
+
+const fade = useSpring({
+  from: {
+    opacity: 0
+  },
+  to:{
+    opacity: 1
+  }
+});   
   const navigate = useNavigate();
 
   useEffect(() => {
-    Aos.init({duration: 1000})
-  },[])
+    Aos.init({ duration: 1000 });
+  }, []);
 
   return (
-    <div
+    <animated.div
       id="header"
+      style={fade}
       className="w-full md:h-50 p-2 flex items-center py-16 relative bg-[#acdbcc]"
-      >
+    >
       <section className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center h-2/3 relative z-10">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
@@ -32,7 +45,10 @@ export default function Header() {
             Elevate your skills and compete for excellence on a national stage.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center">
-            <button onClick={() => navigate('/contact')} className="w-full md:w-auto inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg font-bold text-center mt-2 md:mt-0">
+            <button
+              onClick={() => navigate("/contact")}
+              className="w-full md:w-auto inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg font-bold text-center mt-2 md:mt-0"
+            >
               Apply Now!
             </button>
             <div className="md:ml-4 mt-2 md:mt-0">
@@ -47,9 +63,10 @@ export default function Header() {
             className="object-cover object-center rounded"
             alt="hero"
             src="/assest/champ.png"
+            loading="lazy"
           />
         </div>
       </section>
-    </div>
+    </animated.div>
   );
 }

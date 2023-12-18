@@ -1,5 +1,6 @@
 import React from "react";
 import { useEffect } from "react";
+
 import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
@@ -19,6 +20,7 @@ function Rules() {
                 alt="content"
                 className="object-cover object-center h-full w-full "
                 src="/assest/rule.png"
+                loading="lazy"
               />
             </div>
             <h2 className="title-font text-2xl text-[#115740] font-bold mt-6 mb-3">
@@ -38,6 +40,7 @@ function Rules() {
                 alt="content"
                 className=" object-cover object-center h-full w-full"
                 src="/assest/faq.png"
+                loading="lazy"
               />
             </div>
             <h2 className="title-font text-2xl text-[#115740] font-bold mt-6 mb-3">

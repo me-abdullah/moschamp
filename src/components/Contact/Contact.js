@@ -89,7 +89,8 @@ export default function Contact() {
                 <img
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src="/assest/logo.png"
-                  alt="/"
+                  alt="logo"
+                  loading="lazy"
                 />
               </div>
               <div>

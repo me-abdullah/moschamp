@@ -1,11 +1,22 @@
 import React from "react";
+
 import { Link } from "react-router-dom";
+
+import { useSpring, animated } from "react-spring";
 
 function Faq() {
  
+const fade = useSpring({
+  from: {
+    opacity: 0
+  },
+  to:{
+    opacity: 1
+  }
+}); 
   return (
     <section className="text-gray-600">
-      <div className="container px-5 py-24 mx-auto">
+      <animated.div className="container px-5 py-24 mx-auto" style={fade}>
         <div className="text-center mb-12">
           <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">
             Frequently asked questions
@@ -17,12 +28,12 @@ function Faq() {
             Championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. The 2024 Microsoft Office Specialist U.S. National Championship
+            A. The 2024 Microsoft Office Specialist P.K. National Championship
             presented by Certiport, Inc. is a national competition that tests
             students’ skills in Microsoft Office Word, Excel® and PowerPoint®.
             Top students are invited to represent their respective states at the
-            U.S. National Championship in Orlando, Florida on June 17 – 19,
-            2024. At the U.S. National Championship Event, each student competes
+            P.K. National Championship in Orlando, Florida on June 17 – 19,
+            2024. At the P.K. National Championship Event, each student competes
             to be the champion in their category: Microsoft Word (Office 2019),
             Microsoft Excel (Office 2019), Microsoft PowerPoint (Office 2019),
             Microsoft Word (Microsoft 365 Apps), Microsoft Excel (Microsoft 365
@@ -33,28 +44,28 @@ function Faq() {
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             A. Anyone may participate in the qualification round of testing, but
-            to participate in the U.S. National Championship, candidates must be
+            to participate in the P.K. National Championship, candidates must be
             students that are enrolled in an approved, degree-seeking academic
             institution recognized by the state in which it operates. Candidates
             must also be between the ages of 13 and 22 (as of June 15 of the
-            competition year). Individuals participating in the U.S. National
+            competition year). Individuals participating in the P.K. National
             Championship must be able to provide proof of age and student status
             upon request. <br />
-            Previous participants of the U.S. National Championship round are
+            Previous participants of the P.K. National Championship round are
             eligible to compete; however, they cannot compete in the exam they
-            previously competed in during a U.S. National Championship round.
+            previously competed in during a P.K. National Championship round.
             For example, a candidate who competed in Microsoft Word (Office
             2016), Microsoft Word (Office 2019) or Microsoft Word (Microsoft 365
-            Apps) during a previous U.S. National Championship round can compete
+            Apps) during a previous P.K. National Championship round can compete
             in Microsoft Excel® or PowerPoint® in the qualifying round and the
-            U.S. National Championship Round of this year’s competition.
+            P.K. National Championship Round of this year’s competition.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
             Q. What versions of Microsoft Office Specialist certifications will
-            the Microsoft Office Specialist U.S. National Championship include?
+            the Microsoft Office Specialist P.K. National Championship include?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. The U.S. National Championship will include the following six (6)
+            A. The P.K. National Championship will include the following six (6)
             tracks: Microsoft Word (Office 2019), Microsoft Excel® (Office
             2019), Microsoft PowerPoint® (Office 2019), Microsoft Word
             (Microsoft 365 Apps), Microsoft Excel® (Microsoft 365 Apps) and
@@ -88,7 +99,7 @@ function Faq() {
             A. During the qualifying round, a candidate can participate in
             multiple exam tracks. For example, they can submit a Microsoft Excel
             (Office 2019) and Microsoft Excel (Microsoft 365 Apps). However, if
-            they qualify to participate in the U.S. National Championship, they
+            they qualify to participate in the P.K. National Championship, they
             can only compete in only one exam track at the event.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
@@ -99,22 +110,22 @@ function Faq() {
             periods. The 2024 qualification periods are June 14, 2023 – December
             15, 2023, and December 16, 2023 – May 3, 2024. Shortly after the
             qualifier period ends, state champions and their proctors will be
-            notified. All state champions will be invited to the U.S. National
-            Championship to compete for the title of the U.S. Champion in
+            notified. All state champions will be invited to the P.K. National
+            Championship to compete for the title of the P.K. Champion in
             Microsoft Word (Office 2019), Microsoft Excel® (Office 2019),
             Microsoft PowerPoint® (Office 2019), Microsoft Word (Microsoft 365
             Apps), Microsoft Excel® (Microsoft 365 Apps), or Microsoft
-            PowerPoint® (Microsoft 365 Apps). During the U.S. National
+            PowerPoint® (Microsoft 365 Apps). During the P.K. National
             Championship event, all state champions will be tested in a
             proctored lab in their respective exam tracks. All participants in
-            the U.S. National Championship are responsible for preparing
+            the P.K. National Championship are responsible for preparing
             themselves to compete in their respective exams.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
             Q. How does Certiport select the winning score?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. If two competitors at the U.S. National Championship event have
+            A. If two competitors at the P.K. National Championship event have
             the same high exam score on the unique comprehensive exams, the
             finalist who completed the exam in the least amount of time will be
             the winner. Decisions of judges are final. Winners will be notified
@@ -122,7 +133,7 @@ function Faq() {
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
             Q. How many days after the deadline do you wait to invite
-            competitors to the MOS U.S. National Championship?
+            competitors to the MOS P.K. National Championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             A. Invitations are usually sent about one to two weeks following the
@@ -131,7 +142,7 @@ function Faq() {
             account.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. How much does it cost to attend the MOS U.S. National
+            Q. How much does it cost to attend the MOS P.K. National
             Championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
@@ -167,7 +178,7 @@ function Faq() {
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
             Q. How many days after the deadline do you wait to invite students
-            to the MOS U.S. National Championship?
+            to the MOS P.K. National Championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             A. Reports are run the following Monday, after the closing deadline.
@@ -178,11 +189,11 @@ function Faq() {
             Certiport profile is correct and frequently checked.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. I just received an invitation to compete in the MOS U.S. National
+            Q. I just received an invitation to compete in the MOS P.K. National
             Championship. What do I do now?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. Congratulations! You’ve been invited to compete in the MOS U.S.
+            A. Congratulations! You’ve been invited to compete in the MOS P.K.
             National Championship. If you’re interested in competing, you will
             need to complete the online registration, submit your student
             packet, and book your travel and hotel. All of these items were
@@ -201,7 +212,7 @@ function Faq() {
             </Link>
           </p>
         </div>
-      </div>
+      </animated.div>
     </section>
   );
 }

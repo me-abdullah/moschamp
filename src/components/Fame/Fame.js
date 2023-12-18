@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
+
 import { useNavigate } from "react-router-dom";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Fame() {
@@ -36,6 +38,7 @@ function Fame() {
             src="/assest/champ3.jpg"
             alt="stats"
             data-aos="flip-right"
+            loading="lazy"
           />
         </div>
       </div>

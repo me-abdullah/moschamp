@@ -2,7 +2,7 @@ import React from "react";
 
 const Certified = () => {
   return (
-    <div className="qt-box qt-background2 flex items-center">
+    <div id="certified" className="qt-box qt-background2 flex items-center">
       <div className="container">
         <div className="row">
           <div className="col-md-8 text-white ml-auto mr-auto text-center text-xl font-medium">

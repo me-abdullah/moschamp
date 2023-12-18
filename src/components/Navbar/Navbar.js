@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
@@ -34,89 +34,89 @@ export default function Navbar() {
       }
     >
       <div className="flex justify-between md:justify-around items-center w-full h-full px-2 2xl:px-16">
-        <img src="/assest/logo.png" alt="/" width="100" height="40" />
+        <img src="/assest/logo.png" alt="/" width="100" height="30" loading="lazy"/>
         <div>
           <ul className="hidden md:flex font-bold items-baseline">
-            <Link
-              to="header"
+            <a
+              href="#header"
               spy={true}
               smooth={true}
               offset={50}
               duration={500}
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </Link>
-            <Link
-              to="about"
+              <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">Home</li>
+            </a>
+            <a
+              href="#about"
               spy={true}
               smooth={true}
               offset={50}
               duration={500}
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">About</li>
-            </Link>
+              <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">About</li>
+            </a>
             <ul className="list-none">
-              <li className="inline-block ml-10 text-sm uppercase relative group">
-                <Link
-                  to="skills"
+              <li className="inline-block ml-10 text-sm uppercase relative group cursor-pointer">
+                <a
+                  href="#certified"
                   spy={true}
                   smooth={true}
                   offset={50}
                   duration={500}
                 >
                   Rankings
-                </Link>
-                <ul className="absolute hidden bg-white mt-1 p-4 rounded-md text-black shadow-md group-hover:block">
+                </a>
+                <ul className="absolute hidden bg-white mt-1 p-4 rounded-md text-black shadow-md group-hover:block cursor-pointer">
                   <li>
-                    <Link
-                      to="win"
+                    <a
+                      href="#win"
                       spy={true}
                       smooth={true}
                       offset={50}
                       duration={500}
                     >
                       Prizes
-                    </Link>
+                    </a>
                   </li>
-                  <li className="mt-3">
-                    <Link
-                      to="deadline"
+                  <li className="mt-3 cursor-pointer">
+                    <a
+                      href="#deadline"
                       spy={true}
                       smooth={true}
                       offset={50}
                       duration={500}
                     >
                       Deadline
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </li>
             </ul>
-            <Link
-              to="promotion"
+            <a
+              href="#promotion"
               spy={true}
               smooth={true}
               offset={50}
               duration={500}
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">
                 Promote
               </li>
-            </Link>
+            </a>
             <ul className="list-none">
-              <li className="inline-block ml-10 text-sm uppercase relative group">
-                <Link
-                  to="rule"
+              <li className="inline-block ml-10 text-sm uppercase relative group cursor-pointer">
+                <a
+                  href="#rule"
                   spy={true}
                   smooth={true}
                   offset={50}
                   duration={500}
                 >
                   Rules
-                </Link>
+                </a>
                 <ul className="absolute hidden text-black bg-white mt-3 p-4 rounded-md shadow-md group-hover:block">
-                  <li>
-                    <a href="/#faq">FAQ</a>
+                  <li className="cursor-pointer">
+                    <a href="#faq">FAQ</a>
                   </li>
                 </ul>
               </li>
@@ -126,17 +126,17 @@ export default function Navbar() {
                 Funding
               </li>
             </Link>
-            <Link
-              to="contact"
+            <a
+              href="#contact"
               spy={true}
               smooth={true}
               offset={50}
               duration={500}
             >
-              <li className="ml-10 text-sm uppercase hover:border-b">
+              <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">
                 Contact
               </li>
-            </Link>
+            </a>
           </ul>
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} color="black"/>
@@ -172,79 +172,79 @@ export default function Navbar() {
             </div>
           </div>
           <div className="py-4 flex flex-col">
-            <ul className="uppercase font-bold">
-              <Link
-                to="header"
+            <ul className="uppercase font-bold cursor-pointer">
+              <a
+                href="#header"
                 spy={true}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
                 <li className=" text-sm">Home</li>
-              </Link>
-              <Link
-                to="about"
+              </a>
+              <a
+                href="#about"
                 spy={true}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
-                <li className="py-4 text-sm">About</li>
-              </Link>
+                <li className="cursor-pointer py-4 text-sm">About</li>
+              </a>
               <ul className="list-none">
                 <li className="inline-block relative group">
-                  <Link
-                    to="skills"
+                  <a
+                    href="#certified"
                     spy={true}
                     smooth={true}
                     offset={50}
                     duration={500}
-                    className="py-4 text-sm"
+                    className="py-4 text-sm cursor-pointer"
                   >
                     Rankings
-                  </Link>
+                  </a>
                   <ul className="absolute hidden bg-white mt-1 p-2 rounded-md shadow-md group-hover:block">
                     <li>
-                      <Link
-                        to="win"
+                      <a
+                        href="#win"
                         spy={true}
                         smooth={true}
                         offset={50}
                         duration={500}
-                        className="py-4 text-sm"
+                        className="py-4 text-sm cursor-pointer"
                       >
                         Prizes
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link
-                        to="deadline"
+                      <a
+                        href="#deadline"
                         spy={true}
                         smooth={true}
                         offset={50}
                         duration={500}
-                        className="py-4 my-2 text-sm"
+                        className="py-4 my-2 text-sm cursor-pointer"
                       >
                         Deadline
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </li>
               </ul>
 
-              <Link
-                to="promotion"
+              <a
+                href="#promotion"
                 spy={true}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
-                <li className="py-4 text-sm">Promote</li>
-              </Link>
+                <li className="py-4 text-sm cursor-pointer">Promote</li>
+              </a>
               <ul className="list-none">
-                <li className="inline-block relative group">
-                  <Link
-                    to="rule"
+                <li className="inline-block relative group cursor-pointer">
+                  <a
+                    href="#rule"
                     spy={true}
                     smooth={true}
                     offset={50}
@@ -252,10 +252,10 @@ export default function Navbar() {
                     className="py-4 text-sm"
                   >
                     Rules
-                  </Link>
+                  </a>
                   <ul className="absolute hidden bg-white mt-1 p-2 rounded-md shadow-md group-hover:block">
                     <li>
-                      <a href="/faq" className="py-2 text-sm">
+                      <a href="#faq" className="py-2 text-sm cursor-pointer">
                         FAQ
                       </a>
                     </li>
@@ -263,7 +263,7 @@ export default function Navbar() {
                 </li>
               </ul>
               <Link
-                to="fund"
+                to="/funding"
                 spy={true}
                 smooth={true}
                 offset={50}
@@ -271,15 +271,15 @@ export default function Navbar() {
               >
                 <li className="py-4 text-sm">Funding</li>
               </Link>
-              <Link
-                to="contact"
+              <a
+                href="#contact"
                 spy={true}
                 smooth={true}
                 offset={50}
                 duration={500}
               >
-                <li className=" text-sm">Contact</li>
-              </Link>
+                <li className=" text-sm cursor-pointer">Contact</li>
+              </a>
             </ul>
             <div className="pt-40">
               <p className="uppercase tracking-widest text-[#115740] font-bold">
