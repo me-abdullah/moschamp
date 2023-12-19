@@ -3,12 +3,13 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Suspense, lazy, useState } from "react";
 
 import Helmet from "react-helmet";
+
+import "./App.css";
+
+import Loading from './pages/Loading';
 import Cursor from "./components/Cursor/Cursor";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import Loading from './pages/Loading';
-import "./App.css";
-
 const About = lazy(() => import('./pages/About'));
 const Famee = lazy(() => import('./pages/Famee'));
 const Faq = lazy(() => import('./pages/Faq'));
@@ -40,6 +41,7 @@ function App() {
         />
       </Helmet>
       <Navbar />
+     
       <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -54,6 +56,7 @@ function App() {
         </Routes>
       </Suspense>
       <Footer />
+      
     </BrowserRouter>
   );
 }

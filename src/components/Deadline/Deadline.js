@@ -29,6 +29,11 @@ function Deadline() {
       <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4">
         When is the deadline to enter?
       </h1>
+      <div className="mycontainer">
+            <div className="lines">
+              <div className="mycircle"></div>
+            </div>
+          </div>
       <div className="container px-5 py-24 mx-auto">
         <div className="-my-8 divide-y-2 divide-gray-100">
           <div

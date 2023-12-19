@@ -15,9 +15,10 @@ function About() {
   }, []);
   return (
     <section className="text-gray-600" id="about">
-       <Helmet>
+      <Helmet>
         <title>
-        About Microsoft Championship Pakistan | Leaders in MS Office Certifications
+          About Microsoft Championship Pakistan | Leaders in MS Office
+          Certifications
         </title>
         <meta
           name="description"
@@ -32,13 +33,22 @@ function About() {
         <img
           className="border-4 border-green-500 lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded "
           alt="hero"
-          src="/assest/new.jpg" data-aos="flip-right"
+          src="/assest/new.jpg"
+          data-aos="flip-right"
           loading="lazy"
         />
         <div className="text-center lg:w-2/3 w-full">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 text-[#115740] font-bold" data-aos="fade-up">
+          <h1
+            className="title-font sm:text-4xl text-3xl mb-4 text-[#115740] font-bold"
+            data-aos="fade-up"
+          >
             What is the MOS P.K National Championship?
           </h1>
+          <div className="mycontainer">
+            <div className="lines">
+              <div className="mycircle"></div>
+            </div>
+          </div>
           <p className="mb-8 leading-relaxed" data-aos="zoom-in">
             The Microsoft Office Specialist P.K National Championship presented
             by Certiport, a Pearson VUE Business, is a competition that tests
@@ -49,7 +59,10 @@ function About() {
             event continue on to the P.K National Championship.
           </p>
           <div className="flex justify-center">
-            <button onClick={() => navigate('/about')} className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 font-bold rounded text-lg">
+            <button
+              onClick={() => navigate("/about")}
+              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 font-bold rounded text-lg"
+            >
               Compete in your state
             </button>
           </div>

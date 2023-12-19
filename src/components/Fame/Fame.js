@@ -19,6 +19,11 @@ function Fame() {
             <h1 className=" text-[#115740] font-bold text-3xl mb-2">
               MOS Championship Hall of Fame
             </h1>
+            <div className="mycontainer">
+            <div className="lines">
+              <div className="mycircle"></div>
+            </div>
+          </div>
             <div className="leading-relaxed my-3 text-justify">
               The MOS Championship doesn’t end with the awards ceremony. Winners
               go on to compete and succeed in higher education and the job

@@ -31,6 +31,11 @@ function Win() {
           <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4">
             What will I Win?
           </h1>
+          <div className="mycontainer">
+            <div className="lines">
+              <div className="mycircle"></div>
+            </div>
+          </div>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
             Discover your potential and unlock exciting prizes by participating.
             Elevate your experience, win unique rewards, and celebrate your

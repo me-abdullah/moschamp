@@ -1,5 +1,5 @@
-body{
-  font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -21,7 +21,7 @@ body{
   color: #fff;
 }
 .qt-background {
-  background: url('../public/assest/champ.png') no-repeat;
+  background: url("../public/assest/champ.png") no-repeat;
   background-size: cover;
   padding: 100px 0;
   background-attachment: fixed;
@@ -29,8 +29,12 @@ body{
   position: relative;
 }
 .qt-background2 {
-  background: linear-gradient(45deg, rgba(17,87,64,0.6),rgba(17,87,40,0.7)),
-   url('../public/assest/new.jpg') no-repeat;
+  background: linear-gradient(
+      45deg,
+      rgba(17, 87, 64, 0.6),
+      rgba(17, 87, 40, 0.7)
+    ),
+    url("../public/assest/new.jpg") no-repeat;
   background-size: cover;
   padding: 100px 0;
   background-attachment: fixed;
@@ -38,8 +42,12 @@ body{
   position: relative;
 }
 .qt-background3 {
-  background: linear-gradient(45deg, rgba(17,87,64,0.6),rgba(17,87,40,0.7)),
-  url('../public/assest/champ2.jpg') no-repeat;
+  background: linear-gradient(
+      45deg,
+      rgba(17, 87, 64, 0.6),
+      rgba(17, 87, 40, 0.7)
+    ),
+    url("../public/assest/champ2.jpg") no-repeat;
   background-size: cover;
   padding: 100px 0;
   background-attachment: fixed;
@@ -106,5 +114,55 @@ body{
     width: 72px;
     height: 72px;
     opacity: 0;
+  }
+}
+.mycontainer {
+  padding: 30px;
+}
+
+.lines {
+  width: 100%;
+  height: 45px;
+  position: relative;
+}
+
+.lines::after,
+.lines::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  height: 2px;
+  background-color: #115740;
+  width: 45%;
+  top: 45%;
+}
+
+.lines::after {
+  left: 0;
+}
+
+.lines::before {
+  right: 0;
+}
+
+.mycircle {
+  height: 40px;
+  width: 40px;
+  border: 2px solid #115740;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+  .mycircle{
+    width: 20px;
+    height: 20px;
+  }
+  .lines{
+    height: 25px;
   }
 }
