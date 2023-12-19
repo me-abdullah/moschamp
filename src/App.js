@@ -1,23 +1,24 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { useState } from "react";
+import { Suspense, lazy, useState } from "react";
 
 import Helmet from "react-helmet";
-
-import "./App.css";
-
-import About from "./pages/About";
-import ContactPage from "./pages/ContactPage";
-import Famee from "./pages/Famee";
-import Faq from "./pages/Faq";
-import Funding from "./pages/Funding";
-import Home from "./pages/Home";
-import Past from "./pages/Past";
-import Promote from "./pages/Promote";
-import Rules from "./pages/Rules";
 import Cursor from "./components/Cursor/Cursor";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import Loading from './pages/Loading';
+import "./App.css";
+
+const About = lazy(() => import('./pages/About'));
+const Famee = lazy(() => import('./pages/Famee'));
+const Faq = lazy(() => import('./pages/Faq'));
+const Funding = lazy(() => import('./pages/Funding'));
+const Home = lazy(() => import('./pages/Home'));
+const Past = lazy(() => import('./pages/Past'));
+const Promote = lazy(() => import('./pages/Promote'));
+const Rules = lazy(() => import('./pages/Rules'));
+const ContactPage = lazy(() => import('./pages/ContactPage'))
+
 function App() {
   const [isScaling, setIsScaling] = useState(false);
 
@@ -39,17 +40,19 @@ function App() {
         />
       </Helmet>
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/rules" element={<Rules />} />
-        <Route path="/faq" element={<Faq />} />
-        <Route path="/promote" element={<Promote />} />
-        <Route path="/past" element={<Past />} />
-        <Route path="/fame" element={<Famee />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<ContactPage />} />
-        <Route path="/funding" element={<Funding />} />
-      </Routes>
+      <Suspense fallback={<Loading />}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/rules" element={<Rules />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/promote" element={<Promote />} />
+          <Route path="/past" element={<Past />} />
+          <Route path="/fame" element={<Famee />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/funding" element={<Funding />} />
+        </Routes>
+      </Suspense>
       <Footer />
     </BrowserRouter>
   );
