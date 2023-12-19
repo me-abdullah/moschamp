@@ -25,12 +25,18 @@ function App() {
     <BrowserRouter>
       <Cursor scaling={isScaling} />
       <Helmet>
-        <title>Microsoft Office Championship in Pakistan</title>
+        <title>
+          Microsoft Championship Pakistan | MS Office International
+          Certifications
+        </title>
         <meta
           name="description"
-          content="Microsoft Office Championship in Pakistan Provide Best International certifications In Pakistan, we offer Microsoft Word, Microsoft Excel, Microsoft PowerPoint."
+          content="Unlock success with Microsoft Championship Pakistan. Explore our MS Office international certifications and join the champions of productivity. Your path to excellence starts here."
         />
-        <meta name="keywords" content="Championship, Certification, MS-Office, Microsoft Champions"/>
+        <meta
+          name="keywords"
+          content="Championship, Certification, MS-Office, Microsoft Champions"
+        />
       </Helmet>
       <Navbar />
       <Routes>

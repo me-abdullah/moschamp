@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 
+import Helmet from "react-helmet";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Deadline() {
@@ -10,6 +12,20 @@ function Deadline() {
 
   return (
     <section className=" overflow-hidden" id="deadline">
+       <Helmet>
+        <title>
+        Microsoft Office Championship Events in Pakistan | Join the Competition
+        </title>
+        <meta
+          name="description"
+          content="Participate in exciting Microsoft Office championship events in Pakistan. Showcase your skills, compete with the best, and earn prestigious international certifications. Be a champion with Microsoft Championship Pakistan.
+          "
+        />
+        <meta
+          name="keywords"
+          content="Championship, Certification, MS-Office, Microsoft Champions"
+        />
+      </Helmet>
       <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4">
         When is the deadline to enter?
       </h1>

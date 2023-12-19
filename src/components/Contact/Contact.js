@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import Helmet from "react-helmet";
+
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
@@ -77,6 +79,20 @@ export default function Contact() {
 
   return (
     <div className="w-full min-h-screen lg:h-screen" id="contact">
+       <Helmet>
+        <title>
+        Contact Microsoft Championship Pakistan | Get in Touch for Certification Inquiries
+        </title>
+        <meta
+          name="description"
+          content="Reach out to Microsoft Championship Pakistan for inquiries about MS Office certifications. Our team is here to assist you on your journey to becoming a certified Microsoft Office champion. Contact us now.
+          "
+        />
+        <meta
+          name="keywords"
+          content="Championship, Certification, MS-Office, Microsoft Champions"
+        />
+      </Helmet>
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className=" text-center text-3xl text-[#115740] font-bold">
           Get In Touch

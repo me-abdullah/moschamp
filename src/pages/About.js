@@ -1,9 +1,24 @@
 import React from 'react';
 
+import Helmet from "react-helmet";
+
 const About = () => {
   return (
     <>
       <img src='/assest/about.png' alt='about' className='w-full h-full md:pt-0 pt-[10vh]' loading='lazy'/>
+      <Helmet>
+        <title>
+        About Microsoft Championship Pakistan | Leaders in MS Office Certifications
+        </title>
+        <meta
+          name="description"
+          content="Learn about Microsoft Championship Pakistan, your trusted partner for MS Office certifications. Discover our mission, values, and commitment to empowering individuals through internationally recognized skills."
+        />
+        <meta
+          name="keywords"
+          content="Championship, Certification, MS-Office, Microsoft Champions"
+        />
+      </Helmet>
       <div className="lg:w-2/3 mx-auto text-center my-10">
         <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">
           Competition details

@@ -3,12 +3,29 @@ import { useEffect } from "react";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import Helmet from "react-helmet";
+
 function Win() {
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
   return (
     <section className="text-gray-600" id="win">
+      <Helmet>
+        <title>
+        MS Office Certification Courses in Pakistan | Microsoft Championship
+        </title>
+        <meta
+          name="description"
+          content="Discover our comprehensive MS Office certification courses in Pakistan at Microsoft Championship. Elevate your skills with internationally recognized certifications. Enroll now for a brighter future.
+          "
+        />
+        <meta
+          name="keywords"
+          content="Discover our comprehensive MS Office certification courses in Pakistan at Microsoft Championship. Elevate your skills with internationally recognized certifications. Enroll now for a brighter future."
+        />
+      </Helmet>
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4">

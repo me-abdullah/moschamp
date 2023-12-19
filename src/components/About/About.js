@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 
+import Helmet from "react-helmet";
+
 import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
@@ -13,6 +15,19 @@ function About() {
   }, []);
   return (
     <section className="text-gray-600" id="about">
+       <Helmet>
+        <title>
+        About Microsoft Championship Pakistan | Leaders in MS Office Certifications
+        </title>
+        <meta
+          name="description"
+          content="Learn about Microsoft Championship Pakistan, your trusted partner for MS Office certifications. Discover our mission, values, and commitment to empowering individuals through internationally recognized skills."
+        />
+        <meta
+          name="keywords"
+          content="Championship, Certification, MS-Office, Microsoft Champions"
+        />
+      </Helmet>
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img
           className="border-4 border-green-500 lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded "
