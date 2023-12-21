@@ -7,6 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 function About() {
   const navigate = useNavigate();
 
@@ -29,6 +30,7 @@ function About() {
           content="Championship, Certification, MS-Office, Microsoft Champions"
         />
       </Helmet>
+      
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img
           className="border-4 border-green-500 lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded "
@@ -58,7 +60,7 @@ function About() {
             participate in a Statewide Championship, and the winners of that
             event continue on to the P.K National Championship.
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-center relative">
             <button
               onClick={() => navigate("/about")}
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 font-bold rounded text-lg"

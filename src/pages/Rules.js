@@ -35,7 +35,7 @@ const Rules = () => {
     }
 
     return (
-        <section className="text-gray-600 flex items-center justify-center h-screen">
+        <section className="text-gray-600 flex items-center justify-center h-screen relative">
             <div className="container px-5 py-24 mx-auto">
                 <div className="flex flex-col text-center w-full mb-12">
                     <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">

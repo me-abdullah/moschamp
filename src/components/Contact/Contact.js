@@ -78,7 +78,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full min-h-screen lg:h-screen" id="contact">
+    <div className="w-full min-h-screen lg:h-screen relative" id="contact">
        <Helmet>
         <title>
         Contact Microsoft Championship Pakistan | Get in Touch for Certification Inquiries

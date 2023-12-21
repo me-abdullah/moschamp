@@ -3,7 +3,7 @@ import React from "react";
 function Promote() {
   return (
     <div
-      className="lg:w-2/3 mx-auto text-center"
+      className="lg:w-2/3 mx-auto text-center relative"
       style={{ paddingTop: "120px" }}
     >
       {/* Competition Process Section */}
@@ -71,6 +71,7 @@ function Promote() {
         <iframe
           width="100%"
           height="515"
+          className="border-4 border-green-600"
           src="https://www.youtube.com/embed/Q3SLm29D6NQ?si=_toEYObsBF5wjr2g"
           title="YouTube video player"
           frameborder="0"

@@ -26,7 +26,7 @@ function Deadline() {
           content="Championship, Certification, MS-Office, Microsoft Champions"
         />
       </Helmet>
-      <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4">
+      <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4 relative">
         When is the deadline to enter?
       </h1>
       <div className="mycontainer">

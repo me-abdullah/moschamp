@@ -15,7 +15,7 @@ const fade = useSpring({
   }
 }); 
   return (
-    <section className="text-gray-600">
+    <section className="text-gray-600 relative">
       <animated.div className="container px-5 py-24 mx-auto" style={fade}>
         <div className="text-center mb-12">
           <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">

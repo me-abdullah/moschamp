@@ -158,11 +158,12 @@ body {
 }
 
 @media (max-width: 768px) {
-  .mycircle{
+  .mycircle {
     width: 20px;
     height: 20px;
   }
-  .lines{
+  .lines {
     height: 25px;
   }
 }
+

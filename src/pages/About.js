@@ -5,7 +5,7 @@ import Helmet from "react-helmet";
 const About = () => {
   return (
     <>
-      <img src='/assest/about.png' alt='about' className='w-full h-full md:pt-0 pt-[10vh]' loading='lazy'/>
+      <img src='/assest/about.png' alt='about' className='w-full h-full md:pt-0 pt-[10vh] relative' loading='lazy'/>
       <Helmet>
         <title>
         About Microsoft Championship Pakistan | Leaders in MS Office Certifications
@@ -19,7 +19,7 @@ const About = () => {
           content="Championship, Certification, MS-Office, Microsoft Champions"
         />
       </Helmet>
-      <div className="lg:w-2/3 mx-auto text-center my-10">
+      <div className="lg:w-2/3 mx-auto text-center my-10 relative">
         <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">
           Competition details
         </h1>
@@ -81,6 +81,7 @@ const About = () => {
           <iframe
             width="100%" // Set the width to 80%
             height="515"
+            className='border-4 border-green-600'
             src="https://www.youtube.com/embed/4LffFW4qRzg?si=GXKkvfHbulSkZ1fJ"
             title="YouTube video player"
             frameborder="0"

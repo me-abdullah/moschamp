@@ -6,10 +6,10 @@ function Past() {
       <img
         src="/assest/pastt-champ.jpg"
         alt="about"
-        className="w-full h-full md:pt-0 pt-[10vh]"
+        className="w-full h-full md:pt-0 pt-[10vh] relative"
         loading="lazy"
       />
-      <div className="lg:w-2/3 mx-auto text-center my-10">
+      <div className="lg:w-2/3 mx-auto text-center my-10 relative">
         <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">
           Champions
         </h1>
@@ -62,6 +62,7 @@ function Past() {
           <iframe
             width="100%"
             height="515"
+            className="border-4 border-green-600"
             src="https://www.youtube.com/embed/f4K8sKm6xE0?si=K-hq6zu9RbrBbfra"
             title="YouTube video player"
             frameborder="0"
