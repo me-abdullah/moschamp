@@ -28,7 +28,7 @@ const fade = useSpring({
     <animated.div
       id="header"
       style={fade}
-      className="w-full md:h-50 p-2 flex items-center py-16 relative backgroundimg"
+      className="w-full md:h-50 p-2 flex items-center py-16 relative backgroundimg text-[#FFFFFF]"
     >
       
       <section className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center h-2/3 relative z-10">
@@ -36,7 +36,7 @@ const fade = useSpring({
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
             Who Will be the next
             <br className="hidden lg:inline-block" />
-            <span className="font-bold text-4xl text-[#FFFFFF]">
+            <span className="font-bold text-4xl text-[#ccfd03]">
               {" "}
               P.K National Champion
             </span>
