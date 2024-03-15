@@ -42,17 +42,16 @@ function Deadline() {
           >
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
               <span className="title-font text-[#115740] font-bold">
-                DEADLINE
+                DATE
               </span>
-              <span className="mt-1 text-black text-sm">16 Jun 2023</span>
+              <span className="mt-1 text-black text-sm"> 15 April 2024 to 15 May 2024</span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">
-                First day to enter the P.K National Championship
+              Registration days to enter the P.K National Championship
               </h2>
               <p className="leading-relaxed">
-                Get Certified! The First day to enter the 2023 MOS P.K National
-                Championship.
+              "Unlock your path to glory: Register now for the P.K National Championship!"
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
@@ -74,17 +73,16 @@ function Deadline() {
           <div className="py-8 flex flex-wrap md:flex-nowrap"   data-aos="fade-left">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
               <span className="title-font text-[#115740] font-bold">
-                DEADLINE
+                DATE
               </span>
-              <span className="mt-1 text-black text-sm">15 Dec 2023</span>
+              <span className="mt-1 text-black text-sm">18 & 19 May 2024 </span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">
-                Last day to enter the Fall Qualifier
+               Time to Compete!
               </h2>
               <p className="leading-relaxed">
-                Last day to enter your Word, Excel or Power Point Exam into the
-                2024 MOS P.K National Championship Fall Qualifier.
+              "Embrace the challenge: It's time to compete and prove your mettle!"
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
@@ -106,17 +104,16 @@ function Deadline() {
           <div className="py-8 flex flex-wrap md:flex-nowrap" data-aos="fade-right">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
               <span className="title-font text-[#115740] font-bold">
-                DEADLINE
+                DATE
               </span>
-              <span className="text-sm text-black">03 May 2024</span>
+              <span className="text-sm text-black">25 & 26 May </span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">
-                Last day to enter the Spring Qualifier
+              Final interview
               </h2>
               <p className="leading-relaxed">
-                Last day to enter your Word, Excel or Power Point Exam into the
-                2024 MOS P.K National Championship Spring Qualifier.
+              "Your moment to shine: The final interview awaits."
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
@@ -138,16 +135,16 @@ function Deadline() {
           <div className="py-8 flex flex-wrap md:flex-nowrap" data-aos="fade-left">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
               <span className="title-font text-[#115740] font-bold">
-                DEADLINE
+                DATE
               </span>
-              <span className="text-sm text-black">17-19 Jun 2024</span>
+              <span className="text-sm text-black">1 June 2024</span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">
-                Time to Compete!
+              	National Champions Announcements
               </h2>
               <p className="leading-relaxed">
-                Certiport's MOS P.K National Championship in Orlando Florida.
+                "Certiport's MOS P.K National Championship in Anaheim, California USA."
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
