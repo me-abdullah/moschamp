@@ -35,7 +35,7 @@ export default function Navbar() {
       }
     >
       <div className="flex justify-between md:justify-around items-center w-full h-full px-2 2xl:px-16">
-        <img src="/assest/logo.png" alt="logo" width="100" height="30" loading="lazy"/>
+        <img src="/assest/newlogo.png" alt="logo" width="100" height="30" loading="lazy"/>
         <div>
           <ul className="hidden md:flex font-bold items-baseline">
             <HashLink
@@ -158,7 +158,7 @@ export default function Navbar() {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <img src="/assest/logo.png" alt="/" width="80" height="30" />
+              <img src="/assest/newlogo.png" alt="/" width="80" height="30" />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"

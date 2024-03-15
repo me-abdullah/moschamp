@@ -1,5 +1,7 @@
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Roboto", sans-serif;
+  
 }
 /* width */
 ::-webkit-scrollbar {
@@ -167,3 +169,6 @@ body {
   }
 }
 
+.backgroundimg{
+  background-image: radial-gradient(circle,#0f9d3b,#0a4d1f);
+}

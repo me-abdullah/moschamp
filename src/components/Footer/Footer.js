@@ -33,7 +33,7 @@ const Footer = () => {
             to="/"
             className="flex title-font font-medium items-start md:justify-start justify-start text-gray-900"
           >
-            <img src="/assest/logo.png" alt="Logo" width="150" height="150" loading="lazy"/>
+            <img src="/assest/newlogo.png" alt="Logo" width="150" height="150" loading="lazy"/>
           </Link>
           <p className="mt-2">
             Excel in Certiport's P.K National Championship, showcasing Microsoft

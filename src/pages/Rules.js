@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import axios from 'axios';
 
 const Rules = () => {
@@ -8,7 +9,6 @@ const Rules = () => {
 
     const fetchData = async () => {
         try {
-            // Replace 'YOUR_API_ENDPOINT' with the actual endpoint to fetch the specific document
             let QUERY = '*[_type == "rules"]{heading, description}';
             let production = 'production';
             let databaseId = 'lqfv3yzx';
@@ -25,7 +25,7 @@ const Rules = () => {
 
     useEffect(() => {
         fetchData();
-    }, []); // The empty dependency array ensures that this effect runs once when the component mounts
+    }, []); 
     if (loading) {
         return <p>Loading...</p>;
     }

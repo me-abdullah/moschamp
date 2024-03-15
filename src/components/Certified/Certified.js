@@ -6,7 +6,7 @@ const Certified = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-8 text-white ml-auto mr-auto text-center text-xl font-medium">
-            <h2 className="sm:text-3xl text-2xl font-bold text-center title-font mb-4">
+            <h2 className="sm:text-3xl text-2xl font-bold title-font mb-4">
               Empowering Educators: Adobe Certified Professional P.K National
               Championship
             </h2>
