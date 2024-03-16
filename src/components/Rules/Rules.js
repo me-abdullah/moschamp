@@ -44,7 +44,7 @@ function Rules() {
               />
             </div>
             <h2 className="title-font text-2xl text-[#115740] font-bold mt-6 mb-3">
-              Frequently asked questions
+              Frequently Asked Questions
             </h2>
             <p className="leading-relaxed text-base">
               Want to learn more about the MOS P.K National Championship? Visit

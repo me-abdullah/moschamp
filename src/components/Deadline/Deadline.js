@@ -144,7 +144,7 @@ function Deadline() {
               	National Champions Announcements
               </h2>
               <p className="leading-relaxed">
-                "Certiport's MOS P.K National Championship in Anaheim, California USA."
+                Certiport's MOS P.K National Championship in Anaheim, California USA.
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More

@@ -1,4 +1,5 @@
 import React from "react";
+
 import { useNavigate } from "react-router-dom";
 function Pastcomp() {
   const navigate = useNavigate();
@@ -8,7 +9,7 @@ function Pastcomp() {
         <div className="row">
           <div className="col-md-8 ml-auto mr-auto text-center text-xl font-medium text-white">
             <h2 className="sm:text-3xl text-2xl font-bold text-center title-font mb-4">
-              Past competitions
+              Past Competitions
             </h2>
             <span className="lead">
             Do you want to see highlights from our past competitions? Search our hashtag MOSWC on Facebook, Twitter and Instagram.
