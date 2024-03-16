@@ -44,146 +44,118 @@ function Win() {
         </div>
         <div className="flex flex-wrap justify-center -m-4">
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className=" relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left">
-              1<sup>st</sup> Place
-            </h2>
+          <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
+        1<sup>st</sup> Place
+      </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-              <a data-aos="fade-up">
-                <span className="bg-green-500 text-green-100 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+            <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
                 </span>
-                $3000
+                <span className="text-center font-bold">$3000</span>
               </a>
-              <a data-aos="fade-down">
-                <span className="bg-green-500 text-green-100 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
                 </span>
-                Trophy
+                <span className="text-center font-bold">Trophy</span>
               </a>
-              <a data-aos="fade-right">
-                <span className="bg-green-500 text-green-100 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
                 </span>
-                Medal of Achievement
+                <span className="text-center font-bold">Medal of Achievement</span>
               </a>
-              <a data-aos="zoom-in">
-                <span className="bg-green-500 text-green-100 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
                 </span>
-                Winner’s Certificate
+                <span className="text-center font-bold">Winner’s Certificate</span>
               </a>
-              <a data-aos="zoom-in">
-                <span className="bg-green-500 text-green-100 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+              
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-20 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="120"
+                    height="50"
+                  />
                 </span>
-                All Expenses Paid Trip to Compete in the Microsoft Office
-                Specialist World Championship
+                <span className="font-bold">All Expenses Paid Trip to Compete in the Microsoft Office Specialist World Championship</span>
               </a>
+              
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-            <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left">
-              2<sup>nd</sup> Place
-            </h2>
+          <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
+        2<sup>nd</sup> Place
+      </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-              <a data-aos="fade-up">
-                <span className="bg-green-500 text-green-100 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+            <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
                 </span>
-                $2000
+                <span className="text-center font-bold">$2000</span>
               </a>
-              <a data-aos="fade-down">
-                <span className="bg-green-500 text-green-100 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
                 </span>
-                Medal of Achievement
+                <span className="text-center font-bold">Medal of Achievement</span>
               </a>
-              <a data-aos="fade-right">
-                <span className="bg-green-500 text-green-100 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={3}
-                    className="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5" />
-                  </svg>
+
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
                 </span>
-                Winner’s Certificate
+                <span className="text-center font-bold">Winner’s Certificate</span>
               </a>
+
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
