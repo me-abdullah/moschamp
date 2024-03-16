@@ -34,11 +34,11 @@ const fade = useSpring({
       <section className="container mx-auto flex px-5 py-12 md:flex-row flex-col items-center h-2/3 relative z-10">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
-            Who Will be the next
+            Who Will Be The Next
             <br className="hidden lg:inline-block" />
             <span className="font-bold text-4xl text-[#ccfd03]">
               {" "}
-              P.K National Champion
+              MOS P.K National Champion
             </span>
           </h1>
           <p className="mb-6 leading-relaxed  text-justify">

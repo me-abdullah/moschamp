@@ -44,14 +44,14 @@ function Deadline() {
               <span className="title-font text-[#115740] font-bold">
                 DATE
               </span>
-              <span className="mt-1 text-black text-sm"> 15 April 2024 to 15 May 2024</span>
+              <span className="mt-1 text-black text-sm font-bold"> 15 April 2024 to 15 May 2024</span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">
-              Registration days to enter the P.K National Championship
+              Registration Days to Enter The P.K National Championship
               </h2>
               <p className="leading-relaxed">
-              "Unlock your path to glory: Register now for the P.K National Championship!"
+              Unlock your path to glory. Register now for the P.K National Championship!
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
@@ -75,14 +75,14 @@ function Deadline() {
               <span className="title-font text-[#115740] font-bold">
                 DATE
               </span>
-              <span className="mt-1 text-black text-sm">18 & 19 May 2024 </span>
+              <span className="mt-1 text-black text-sm font-bold">18 & 19 May 2024 </span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">
                Time to Compete!
               </h2>
               <p className="leading-relaxed">
-              "Embrace the challenge: It's time to compete and prove your mettle!"
+              Accept the challenge. It's time to show off your skills and compete!
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
@@ -106,14 +106,14 @@ function Deadline() {
               <span className="title-font text-[#115740] font-bold">
                 DATE
               </span>
-              <span className="text-sm text-black">25 & 26 May </span>
+              <span className="text-sm text-black font-bold">25 & 26 May </span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">
-              Final interview
+              Final Interview
               </h2>
               <p className="leading-relaxed">
-              "Your moment to shine: The final interview awaits."
+              Your moment to shine. The final interview awaits.
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More
@@ -137,7 +137,7 @@ function Deadline() {
               <span className="title-font text-[#115740] font-bold">
                 DATE
               </span>
-              <span className="text-sm text-black">1 June 2024</span>
+              <span className="text-sm text-black font-bold">1 June 2024</span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl text-[#115740] font-bold title-font mb-2">

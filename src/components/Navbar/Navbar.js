@@ -35,7 +35,7 @@ export default function Navbar() {
       }
     >
       <div className="flex justify-between md:justify-around items-center w-full h-full px-2 2xl:px-16">
-        <img src="/assest/newlogo.png" alt="logo" width="100" height="30" loading="lazy"/>
+        <img src="/assest/newlogo.png" alt="logo" width="70" height="30" loading="lazy"/>
         <div>
           <ul className="hidden md:flex font-bold items-baseline">
             <HashLink

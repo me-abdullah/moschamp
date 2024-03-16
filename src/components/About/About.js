@@ -44,7 +44,7 @@ function About() {
             className="title-font sm:text-4xl text-3xl mb-4 text-[#115740] font-bold"
             data-aos="fade-up"
           >
-            What is the MOS P.K National Championship?
+            What is The MOS P.K National Championship?
           </h1>
           <div className="mycontainer">
             <div className="lines">

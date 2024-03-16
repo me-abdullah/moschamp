@@ -172,3 +172,24 @@ body {
 .backgroundimg{
   background-image: radial-gradient(circle,#0f9d3b,#0a4d1f);
 }
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(0.8); /* Start with a smaller scale */
+    opacity: 0; /* Start with opacity 0 */
+  }
+  50% {
+    transform: scale(1.2); /* Scale up to 120% halfway through the animation */
+    opacity: 1; /* Fade in */
+  }
+  100% {
+    transform: scale(0.8); /* Scale back down to 80% */
+    opacity: 0; /* Fade out */
+  }
+}
+
+.custom-animation {
+  animation: scaleAnimation 2s ease-in-out infinite; /* Apply the animation with infinite loop */
+}
+
+

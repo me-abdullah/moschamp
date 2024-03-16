@@ -107,8 +107,8 @@ export default function Contact() {
                   src="/assest/newlogo.png"
                   alt="logo"
                   loading="lazy"
-                  width='300'
-                  height='250'
+                  width='150'
+                  height='100'
                 />
               </div>
               <div>
