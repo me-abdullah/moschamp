@@ -58,7 +58,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">$3000</span>
+                <span className="text-center font-bold">$350</span>
               </a>
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
@@ -70,7 +70,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Trophy</span>
+                <span className="text-center font-bold">Shield</span>
               </a>
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
@@ -94,20 +94,46 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Winner’s Certificate</span>
+                <span className="text-center font-bold">Winner Certificate</span>
               </a>
-              
+
               <a data-aos="fade-down" className="flex items-center">
-                <span className="w-20 mr-2 rounded-full flex items-center justify-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
                     src="/assest/newlogo.png"
                     alt="logo"
                     loading="lazy"
-                    width="120"
+                    width="100"
                     height="50"
                   />
                 </span>
-                <span className="font-bold">All Expenses Paid Trip to Compete in the Microsoft Office Specialist World Championship</span>
+                <span className="text-center font-bold">MCT Counseling</span>
+              </a>
+              
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
+                </span>
+                <span className="text-center font-bold">VISA Process (T&C Apply)</span>
+              </a>
+              
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
+                </span>
+                <span className="text-center font-bold">Paid Trip (T&C Apply)</span>
               </a>
               
             </nav>
@@ -127,7 +153,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">$2000</span>
+                <span className="text-center font-bold">$175</span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
@@ -140,7 +166,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Medal of Achievement</span>
+                <span className="text-center font-bold">Shield</span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
@@ -153,7 +179,33 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Winner’s Certificate</span>
+                <span className="text-center font-bold">Winner Certificate</span>
+              </a>
+
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
+                </span>
+                <span className="text-center font-bold">MCT Counseling</span>
+              </a>
+
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
+                </span>
+                <span className="text-center font-bold">VISA Process (T&C Apply)</span>
               </a>
 
             </nav>
@@ -173,7 +225,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">$1000</span>
+                <span className="text-center font-bold">$115</span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
@@ -186,7 +238,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Medal of Achievement</span>
+                <span className="text-center font-bold">Shield</span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
@@ -199,8 +251,35 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Winner’s Certificate</span>
+                <span className="text-center font-bold">Winner Certificate</span>
               </a>
+
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
+                </span>
+                <span className="text-center font-bold">MCT Counseling</span>
+              </a>
+
+              <a data-aos="fade-down" className="flex items-center">
+                <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
+                  <img
+                    src="/assest/newlogo.png"
+                    alt="logo"
+                    loading="lazy"
+                    width="100"
+                    height="50"
+                  />
+                </span>
+                <span className="text-center font-bold">VISA Process (T&C Apply)</span>
+              </a>
+
             </nav>
           </div>
         </div>

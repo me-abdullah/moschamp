@@ -38,12 +38,12 @@ const fade = useSpring({
             <br className="hidden lg:inline-block" />
             <span className="font-bold text-4xl text-[#ccfd03]">
               {" "}
-              MOS P.K National Champion
+              MOS P.K National Champion?
             </span>
           </h1>
           <p className="mb-6 leading-relaxed  text-justify">
             Engage in the pinnacle of Microsoft Office mastery by participating
-            in Certiport's P.K National Championship for MS Office Specialists.
+            in Certiport's P.K National Championship for Microsoft Office Specialist.
             Elevate your skills and compete for excellence on a national stage.
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center">

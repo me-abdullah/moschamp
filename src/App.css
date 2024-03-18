@@ -36,7 +36,7 @@ body {
       rgba(17, 87, 64, 0.6),
       rgba(17, 87, 40, 0.7)
     ),
-    url("../public/assest/new.jpg") no-repeat;
+    url("../public/assest/CT-bg.jpeg") no-repeat;
   background-size: cover;
   padding: 100px 0;
   background-attachment: fixed;

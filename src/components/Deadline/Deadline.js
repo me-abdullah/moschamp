@@ -144,7 +144,7 @@ function Deadline() {
               	National Champions Announcements
               </h2>
               <p className="leading-relaxed">
-                Certiport's MOS P.K National Championship in Anaheim, California USA.
+              MOS Pakistan National Championship, The Day of Winners' Announcement
               </p>
               <a className="text-green-500 inline-flex items-center mt-4">
                 Learn More

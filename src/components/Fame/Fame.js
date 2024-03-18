@@ -17,20 +17,18 @@ function Fame() {
         <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div className="w-full sm:p-4 px-4 mb-6" data-aos="fade-right">
             <h1 className=" text-[#115740] font-bold text-3xl mb-2">
-              MOS Championship Hall of Fame
+            MOS Pakistan National Championship
             </h1>
+            <h4 className=" text-[#115740] font-bold mb-2">
+            Where World Champions Begin Their Journey!
+            </h4>
             <div className="mycontainer">
             <div className="lines">
               <div className="mycircle"></div>
             </div>
           </div>
             <div className="leading-relaxed my-3 text-justify">
-              The MOS Championship doesn’t end with the awards ceremony. Winners
-              go on to compete and succeed in higher education and the job
-              market. Want to read the stories of some of our top MOS Champions
-              from the past and find out where they are now? Download a copy of
-              our e-book “Where Are They Now: Stories of Microsoft Office
-              Specialists”.
+            After the MOS Championship Award Ceremony, the journey doesn't end there. Our national champions are gearing up for the upcoming World Championship. But wait, there's more! Participants will stay engaged with counseling sessions, job opportunities events, MCT events, and a myriad of other enriching activities in the future.
             </div>
             <button onClick={() => navigate('/fame')} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
               Find Out More!
