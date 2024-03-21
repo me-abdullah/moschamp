@@ -38,7 +38,7 @@ function Fame() {
         <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
           <img
             className="object-cover object-center w-full h-full border-4 border-green-500"
-            src="/assest/champ3.jpg"
+            src="/assest/fame-banner.jpeg"
             alt="stats"
             data-aos="flip-right"
             loading="lazy"
