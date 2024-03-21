@@ -117,7 +117,7 @@ const Footer = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className=" text-sm text-center sm:text-left text-black">
-            © 2023 Certiport, a business of NCS Pearson, Inc.
+            © 2024 Certiport, a business of NCS Pearson, Inc.
           </p>
         </div>
       </div>

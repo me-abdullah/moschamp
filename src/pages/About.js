@@ -27,7 +27,7 @@ const About = () => {
       </Helmet>
       <div className="lg:w-2/3 mx-auto text-center my-10 relative">
         <h1 className="sm:text-3xl text-2xl title-font mb-4 text-[#115740] font-bold">
-          Competition details
+          Competition Details
         </h1>
 
         {/* Welcome Section */}
@@ -64,37 +64,64 @@ const About = () => {
             in their city/province in one of the following categories:
           </p>
 
+          <ul className="text-gray-600 list-disc text-left">
+            <li> Microsoft Office Word (Office 2019)</li>
+            <li> Microsoft Office Excel (Office 2019) </li>
+            <li>Microsoft Office PowerPoint (Office 2019)</li>
+            <li>Microsoft Office Word (Microsoft 365 Apps)</li>
+            <li>Microsoft Office Excel (Microsoft 365 Apps)</li>
+            <li>Microsoft Office PowerPoint (Microsoft 365 Apps)</li>
+          </ul>
+
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            Registration for the MOS Pakistan National Championship opens from <b><u>
-            April 15, 2024, to May 15, 2024.</u></b> Participation requires completion
-            of the registration process. Upon registration confirmation, the MOS
-            Championship Pakistan team will reach out to confirm participation.<br/><br/>
+            Registration for the MOS Pakistan National Championship opens from{" "}
+            <b>
+              <u>April 15, 2024, to May 15, 2024.</u>
+            </b>{" "}
+            Participation requires completion of the registration process. Upon
+            registration confirmation, the MOS Championship Pakistan team will
+            reach out to confirm participation.
+            <br />
+            <br />
             Participants from across Pakistan, including Azad Jammu and Kashmir
             and Gilgit–Baltistan, are welcome to join. The competition
-            progresses in two phases:<br/><br/>
+            progresses in two phases:
+            <br />
+            <br />
             <ol className="text-gray-600 list-disc text-left">
               <li>
-                "Time to Compete": Testing will take place on <b><u>May 18 & 19, 2024.</u></b>
+                <b>"Time to Compete":</b> Testing will take place on{" "}
+                <b>
+                  <u>May 18 & 19, 2024.</u>
+                </b>
                 Participants will receive confirmation of the testing venue,
                 along with their exam time slot, via email and phone call.
               </li>
               <li>
-                Interviews: High-scoring students from the testing phase will
-                undergo interviews on <b><u> May 25 & 26, 2024.</u></b>
+                <b> Interviews:</b> High-scoring students from the testing phase
+                will undergo interviews on{" "}
+                <b>
+                  <u> May 25 & 26, 2024.</u>
+                </b>
               </li>
-            </ol><br/>
+            </ol>
+            <br />
             The final results of the MOS Pakistan National Championship will be
-            announced on June 1, 2024 (Insha Allah). In the event of two
-            students having the same score in the final test and interview, the
-            student who completed the test in less time will be selected. <br/>
+            announced on{" "}
+            <b>
+              <u> June 1, 2024</u>
+            </b>{" "}
+            (Insha Allah). In the event of two students having the same score in
+            the final test and interview, the student who completed the test in
+            less time will be selected. <br />
             Previous participants of the Microsoft Office Specialist P.K.
             National Championship round can compete this year only if they are
             taking a different exam. For example, a student who competed in a
             prior round in Microsoft Word (Office 2019) or Microsoft Word
             (Microsoft 365 Apps) can participate this year in any Microsoft
-            Excel or PowerPoint exam, but not in any Microsoft Word exam. <br/> Upon
-            completion of the MOS Pakistan National Championship, champions will
-            advance to the World Championship. Terms and conditions apply.
+            Excel or PowerPoint exam, but not in any Microsoft Word exam. <br />{" "}
+            Upon completion of the MOS Pakistan National Championship, champions
+            will advance to the World Championship. Terms and conditions apply.
           </p>
           <p className="leading-relaxed text-xl text-[#115740] my-5 font-bold">
             Students can enter their exam scores in one of two ways:
@@ -130,14 +157,16 @@ const About = () => {
 
         {/* Video Section */}
         <section className="my-10">
+         
           <iframe
-            width="100%" // Set the width to 80%
-            height="515"
-            className="border-4 border-green-600"
-            src="https://www.youtube.com/embed/4LffFW4qRzg?si=GXKkvfHbulSkZ1fJ"
+             width="100%" // Set the width to 80%
+             height="515"
+             className="border-4 border-green-600"
+            src="https://www.youtube.com/embed/Q3SLm29D6NQ?si=vDpbCyxbraqlwXIq"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen
           ></iframe>
         </section>
