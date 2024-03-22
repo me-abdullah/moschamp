@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <img
-        src="/assest/about-page.jpg"
+        src="/assest/about-page.jpeg"
         alt="about"
         className="w-full h-full md:pt-0 pt-[10vh] relative"
         loading="lazy"
@@ -232,17 +232,17 @@ const About = () => {
 
         {/* Video Section */}
         <section className="my-10">
-          <iframe
-            width="100%" // Set the width to 80%
-            height="515"
-            className="border-4 border-green-600"
-            src="https://www.youtube.com/embed/Q3SLm29D6NQ?si=vDpbCyxbraqlwXIq"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-          ></iframe>
+        <iframe
+                width="100%" // Set the width to 80%
+                height="515"
+                className="border-4 border-green-600"
+              src="https://www.youtube.com/embed/4LffFW4qRzg?si=RxgIXen-fmMjIasa"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
         </section>
 
         {/* Additional Information Section */}

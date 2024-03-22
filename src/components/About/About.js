@@ -30,7 +30,7 @@ function About() {
           content="Championship, Certification, MS-Office, Microsoft Champions"
         />
       </Helmet>
-      
+
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img
           className="border-4 border-green-500 lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded "
@@ -52,8 +52,31 @@ function About() {
             </div>
           </div>
           <p className="mb-8 leading-relaxed" data-aos="zoom-in">
-          The Microsoft Office Specialist Pakistan National Championship, presented by Certiport, a Pearson VUE Business, is a competition designed to assess students' proficiency in Microsoft Office applications such as Word, Excel®, and PowerPoint®. The top-performing students earn the honor of representing their respective cities at the P.K National Championship. In certain cities, students have the opportunity to compete in a national championship, and the champions of this event progress to the MOS World Championship.
+            The Microsoft Office Specialist Pakistan National Championship,
+            presented by Certiport, a Pearson VUE Business, is a competition
+            designed to assess students' proficiency in Microsoft Office
+            applications such as Word, Excel®, and PowerPoint®. The
+            top-performing students earn the honor of representing their
+            respective cities at the P.K National Championship. In certain
+            cities, students have the opportunity to compete in a national
+            championship, and the champions of this event progress to the MOS
+            World Championship.
           </p>
+          <section className="my-10 relative">
+            <iframe
+              width="100%" // Set the width to 80%
+              height="515"
+              className="border-4 border-green-600"
+              src="https://www.youtube.com/embed/Q3SLm29D6NQ?si=vDpbCyxbraqlwXIq"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+
+           
+          </section>
           <div className="flex justify-center relative">
             <button
               onClick={() => navigate("/about")}

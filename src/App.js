@@ -1,25 +1,25 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { Suspense, lazy, useState } from "react";
+import { Suspense, useState } from "react";
 
 import Helmet from "react-helmet";
 
 import "./App.css";
 
+import About from "./pages/About";
+import ContactPage from "./pages/ContactPage";
+import Famee from "./pages/Famee";
+import Faq from "./pages/Faq";
+import Home from "./pages/Home";
 import Loading from "./pages/Loading";
+import Past from "./pages/Past";
+import Promote from "./pages/Promote";
+import Rules from "./pages/Rules";
 import Cursor from "./components/Cursor/Cursor";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import BgAnimation from "./components/bganimation/BgAnimation";
-const About = lazy(() => import("./pages/About"));
-const Famee = lazy(() => import("./pages/Famee"));
-const Faq = lazy(() => import("./pages/Faq"));
-const Funding = lazy(() => import("./pages/Funding"));
-const Home = lazy(() => import("./pages/Home"));
-const Past = lazy(() => import("./pages/Past"));
-const Promote = lazy(() => import("./pages/Promote"));
-const Rules = lazy(() => import("./pages/Rules"));
-const ContactPage = lazy(() => import("./pages/ContactPage"));
+// const ContactPage = lazy(() => import("./pages/ContactPage"));
 
 function App() {
   const [isScaling, setIsScaling] = useState(false);
@@ -53,7 +53,7 @@ function App() {
           <Route path="/fame" element={<Famee />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactPage />} />
-          <Route path="/funding" element={<Funding />} />
+          {/* <Route path="/funding" element={<Funding />} /> */}
         </Routes>
       </Suspense>
       <Footer />

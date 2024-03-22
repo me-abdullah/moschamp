@@ -23,7 +23,7 @@ body {
   color: #fff;
 }
 .qt-background {
-  background: url("../public/assest/bg-banner.jpeg") no-repeat;
+  background: url("../public/assest/bg-banner-2.jpeg") no-repeat;
   background-size: cover;
   padding: 100px 0;
   background-attachment: fixed;
@@ -192,6 +192,9 @@ body {
   animation: scaleAnimation 2s ease-in-out infinite; /* Apply the animation with infinite loop */
 }
 
+html,body{
+  height: -webkit-fill-available;
+}
 
 
 

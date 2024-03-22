@@ -79,7 +79,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full min-h-screen lg:h-screen relative" id="contact">
+    <div className="w-full min-h-screen lg:h-screen relative my-10" id="contact">
       <Helmet>
         <title>
           Contact Microsoft Championship Pakistan | Get in Touch for
@@ -124,41 +124,43 @@ export default function Contact() {
               </div>
 
               <div className="container mx-auto">
-  <section className="sm:text-left">
-                <nav className="flex flex-col sm:items-start sm:text-left -mb-1 space-y-2.5">
-                  <a className="flex">
-                    <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
-                      <MdCall color="green" size={30} />
-                    </span>
-                    <div className="font-medium">
-                      <span className="block">+92-334-4967-167</span>
-                      <span className="block">+92-336-2525-920</span>
-                    </div>
-                  </a>
-
-                  <a className="flex">
-                    <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
-                      <MdEmail color="green" size={30} />
-                    </span>
-                    <div className="font-medium">
-                      <span className="block">Contact@setpakistan.com</span>
-                      <span className="block">
-                        info@moschampionshippakistan.com
+                <section className="sm:text-left">
+                  <nav className="flex flex-col sm:items-start sm:text-left -mb-1 space-y-2.5">
+                    <a className="flex">
+                      <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
+                        <MdCall color="green" size={30} />
                       </span>
-                    </div>
-                  </a>
+                      <div className="font-medium">
+                        <span className="block">+92-334-4967-167</span>
+                        <span className="block">+92-336-2525-920</span>
+                      </div>
+                    </a>
 
-                  <a className="flex">
-                    <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center ">
-                      <IoGlobeSharp color="green" size={30} />
-                    </span>
-                    <div className="font-medium">
-                      <span className="block">setpakistan.com</span>
-                      <span className="block">moschampionshippakistan.com</span>
-                    </div>
-                  </a>
-                </nav>
-              </section>
+                    <a className="flex">
+                      <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
+                        <MdEmail color="green" size={30} />
+                      </span>
+                      <div className="font-medium">
+                        <span className="block">Contact@setpakistan.com</span>
+                        <span className="block">
+                          info@moschampionshippakistan.com
+                        </span>
+                      </div>
+                    </a>
+
+                    <a className="flex">
+                      <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center ">
+                        <IoGlobeSharp color="green" size={30} />
+                      </span>
+                      <div className="font-medium">
+                        <span className="block">setpakistan.com</span>
+                        <span className="block">
+                          moschampionshippakistan.com
+                        </span>
+                      </div>
+                    </a>
+                  </nav>
+                </section>
               </div>
 
               <div>
@@ -168,23 +170,36 @@ export default function Contact() {
                 <h2 className="py-2">Follow us On Social Networks</h2>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="https://www.aedin.com/company/moschampionshippakistan/" target="_blank">
+                    <a
+                      href="https://www.aedin.com/company/moschampionshippakistan/"
+                      target="_blank"
+                    >
                       <FaLinkedin />
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="https://www.facebook.com/profile.php?id=61557079722386&mibextid=ZbWKwL" target="_blank">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=61557079722386&mibextid=ZbWKwL"
+                      target="_blank"
+                    >
                       {" "}
                       <FaFacebookF />
                     </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <a href="https://www.instagram.com/invites/contact/?i=13k9p5mh2ecoa&utm_content=t0n5vps" target="_blank">
+                    <a
+                      href="https://www.instagram.com/invites/contact/?i=13k9p5mh2ecoa&utm_content=t0n5vps"
+                      target="_blank"
+                    >
                       <RiInstagramFill />
                     </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"><a href="mailto:info@moschampionshippakistan.com" target="_blank">
-                    <MdEmail />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                    <a
+                      href="mailto:info@moschampionshippakistan.com"
+                      target="_blank"
+                    >
+                      <MdEmail />
                     </a>
                   </div>
                 </div>
