@@ -44,11 +44,12 @@ function Win() {
         </div>
         <div className="flex flex-wrap justify-center -m-4">
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-          <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
-        1<sup>st</sup> Place
-      </h2>
+            <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
+              1<sup>st</sup> Place
+            </h2>
+
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a data-aos="fade-down" className="flex items-center">
+              <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
                     src="/assest/newlogo.png"
@@ -82,7 +83,9 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Medal of Achievement</span>
+                <span className="text-center font-bold">
+                  Medal of Achievement
+                </span>
               </a>
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
@@ -94,7 +97,9 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Winner Certificate</span>
+                <span className="text-center font-bold">
+                  Winner Certificate
+                </span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
@@ -109,7 +114,7 @@ function Win() {
                 </span>
                 <span className="text-center font-bold">MCT Counseling</span>
               </a>
-              
+
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
@@ -120,9 +125,11 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">VISA Process (T&C Apply)</span>
+                <span className="text-center font-bold">
+                  VISA Process (T&C Apply)
+                </span>
               </a>
-              
+
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
@@ -133,17 +140,18 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Paid Trip (T&C Apply)</span>
+                <span className="text-center font-bold">
+                  Paid Trip (T&C Apply)
+                </span>
               </a>
-              
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-          <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
-        2<sup>nd</sup> Place
-      </h2>
+            <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
+              2<sup>nd</sup> Place
+            </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a data-aos="fade-down" className="flex items-center">
+              <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
                     src="/assest/newlogo.png"
@@ -179,7 +187,9 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Winner Certificate</span>
+                <span className="text-center font-bold">
+                  Winner Certificate
+                </span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
@@ -205,17 +215,18 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">VISA Process (T&C Apply)</span>
+                <span className="text-center font-bold">
+                  VISA Process (T&C Apply)
+                </span>
               </a>
-
             </nav>
           </div>
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
-          <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
-      3<sup>rd</sup> Place
-    </h2>
+            <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
+              3<sup>rd</sup> Place
+            </h2>
             <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-            <a data-aos="fade-down" className="flex items-center">
+              <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
                     src="/assest/newlogo.png"
@@ -251,7 +262,9 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">Winner Certificate</span>
+                <span className="text-center font-bold">
+                  Winner Certificate
+                </span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
@@ -277,9 +290,10 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">VISA Process (T&C Apply)</span>
+                <span className="text-center font-bold">
+                  VISA Process (T&C Apply)
+                </span>
               </a>
-
             </nav>
           </div>
         </div>

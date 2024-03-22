@@ -123,9 +123,10 @@ export default function Contact() {
                 </p>
               </div>
 
-              <section>
-                <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
-                  <a className="flex items-center">
+              <div className="container mx-auto">
+  <section className="sm:text-left">
+                <nav className="flex flex-col sm:items-start sm:text-left -mb-1 space-y-2.5">
+                  <a className="flex">
                     <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
                       <MdCall color="green" size={30} />
                     </span>
@@ -135,7 +136,7 @@ export default function Contact() {
                     </div>
                   </a>
 
-                  <a className="flex items-center">
+                  <a className="flex">
                     <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
                       <MdEmail color="green" size={30} />
                     </span>
@@ -147,7 +148,7 @@ export default function Contact() {
                     </div>
                   </a>
 
-                  <a className="flex items-center">
+                  <a className="flex">
                     <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center ">
                       <IoGlobeSharp color="green" size={30} />
                     </span>
@@ -158,6 +159,7 @@ export default function Contact() {
                   </a>
                 </nav>
               </section>
+              </div>
 
               <div>
                 <p className="uppercase pt-8 text-[#115740] font-bold text-xl">
