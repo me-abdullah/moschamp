@@ -79,7 +79,10 @@ export default function Contact() {
   };
 
   return (
-    <div className="w-full min-h-screen lg:h-screen relative my-10" id="contact">
+    <div
+      className="w-full min-h-screen lg:h-screen relative my-10"
+      id="contact"
+    >
       <Helmet>
         <title>
           Contact Microsoft Championship Pakistan | Get in Touch for
@@ -171,7 +174,7 @@ export default function Contact() {
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <a
-                      href="https://www.aedin.com/company/moschampionshippakistan/"
+                      href="https://www.linkedin.com/company/moschampionshippakistan/"
                       target="_blank"
                     >
                       <FaLinkedin />

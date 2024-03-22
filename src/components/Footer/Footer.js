@@ -46,21 +46,21 @@ const Footer = () => {
               Company
             </h2>
             <nav className="list-none mb-10 space-y-4">
-              <li>
+              {/* <li>
                 <Link to="/">About</Link>
+              </li> */}
+              <li className="font-medium">
+                <Link to="https://home.pearsonvue.com/terms" target="_blank">Terms of Use</Link>
               </li>
-              <li>
-                <Link to="/">Terms of Use</Link>
+              <li className="font-medium">
+                <Link to="https://home.pearsonvue.com/privacy" target="_blank">Privacy Policy</Link>
               </li>
-              <li>
-                <Link to="/">Privacy Policy</Link>
-              </li>
-              <li>
+              {/* <li>
                 <Link to="/">How it Works</Link>
               </li>
               <li>
                 <Link to="/">Contact Us</Link>
-              </li>
+              </li> */}
             </nav>
           </div>
           <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -68,24 +68,24 @@ const Footer = () => {
               Support
             </h2>
             <nav className="list-none mb-10 space-y-4">
-              <li>
-                <Link to="/">Career</Link>
+              <li className="font-medium">
+                <Link to="/https://www.linkedin.com/company/moschampionshippakistan/" target="_blank">Career</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/">24h Service</Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link to="/">Quick Chat</Link>
+              </li> */}
+              <li className="font-medium">
+                <Link to="https://wa.me/+923362525920" target="_blank">Whatsapp</Link>
               </li>
-              <li>
-                <Link to="/">Whatsapp</Link>
-              </li>
-              <li>
+              {/* <li>
                 <Link to="/">Support 24h</Link>
-              </li>
+              </li> */}
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 px-4">
+          {/* <div className="lg:w-1/4 md:w-1/2 px-4">
             <label
               htmlFor="footer-field"
               className="leading-7 text-sm customfont"
@@ -103,7 +103,7 @@ const Footer = () => {
             <button className="inline-flex text-white bg-gradient-to-tr from bg-green-500 to bg-green-600 border-0 py-2 px-6 focus:outline-none rounded shadow-lg shadow-black/5 dark:shadow-black/30">
               Subscribe
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="flex justify-center">
@@ -117,7 +117,7 @@ const Footer = () => {
       <div className="bg-gray-100">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className=" text-sm text-center sm:text-left text-black">
-            © 2024 Certiport, a business of NCS Pearson, Inc.
+            © 2024 MOS Championship Pakistan
           </p>
         </div>
       </div>

@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
 
-import { Link } from "react-router-dom";
-
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import {  MdEmail } from "react-icons/md";
+import { RiInstagramFill } from "react-icons/ri";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { FaLinkedin, FaFacebookF } from "react-icons/fa";
 
 import { HashLink } from "react-router-hash-link";
 export default function Navbar() {
@@ -288,16 +287,32 @@ export default function Navbar() {
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:2-[80%]">
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaLinkedin />
+                <a href="https://www.linkedin.com/company/moschampionshippakistan/" target="_blank"><FaLinkedin /></a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
+                <a
+                      href="https://www.facebook.com/profile.php?id=61557079722386&mibextid=ZbWKwL"
+                      target="_blank"
+                    >
+                      {" "}
+                      <FaFacebookF />
+                    </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
+                <a
+                      href="https://www.instagram.com/invites/contact/?i=13k9p5mh2ecoa&utm_content=t0n5vps"
+                      target="_blank"
+                    >
+                      <RiInstagramFill />
+                    </a>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
+                <a
+                      href="mailto:info@moschampionshippakistan.com"
+                      target="_blank"
+                    >
+                      <MdEmail />
+                    </a>
                 </div>
               </div>
             </div>
