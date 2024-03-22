@@ -6,7 +6,7 @@ const About = () => {
   return (
     <>
       <img
-        src="/assest/about.png"
+        src="/assest/about-page.jpg"
         alt="about"
         className="w-full h-full md:pt-0 pt-[10vh] relative"
         loading="lazy"

@@ -68,21 +68,14 @@ export default function Header() {
 
     //   </section>
     // </animated.div>
-    
 
-    <header className="bg-gray-200 py-4">
-  <div className="container mx-auto">
-    <div className="relative">
-      <img
-        className="w-full h-auto md:h-12 lg:h-28"
-        src="/assest/home-banner.jpg"
-        alt="hero"
-        loading="lazy"
-        style={{ maxWidth: '100%', height: '50%' }}
-      />
-    </div>
-  </div>
-</header>
- 
+    <img
+    src="/assest/home-page.jpg"
+    alt="about"
+    className="w-full h-full md:pt-11 pt-[10vh] relative"
+    loading="lazy"
+  />
+
+
   );
 }

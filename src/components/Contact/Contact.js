@@ -3,10 +3,9 @@ import React, { useState } from "react";
 import Helmet from "react-helmet";
 
 import { IoGlobeSharp } from "react-icons/io5";
-import { MdCall,MdEmail } from "react-icons/md";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { AiOutlineMail } from "react-icons/ai";
+import { MdCall, MdEmail } from "react-icons/md";
+import { FaLinkedin, FaFacebookF } from "react-icons/fa";
+import { RiInstagramFill } from "react-icons/ri";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -128,7 +127,7 @@ export default function Contact() {
                 <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                   <a className="flex items-center">
                     <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
-                      <MdCall color="green" size={30}/>
+                      <MdCall color="green" size={30} />
                     </span>
                     <div className="font-medium">
                       <span className="block">+92-334-4967-167</span>
@@ -138,17 +137,19 @@ export default function Contact() {
 
                   <a className="flex items-center">
                     <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
-                      <MdEmail color="green" size={30}/>
+                      <MdEmail color="green" size={30} />
                     </span>
                     <div className="font-medium">
                       <span className="block">Contact@setpakistan.com</span>
-                      <span className="block">info@moschampionshippakistan.com</span>
+                      <span className="block">
+                        info@moschampionshippakistan.com
+                      </span>
                     </div>
                   </a>
 
                   <a className="flex items-center">
                     <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center ">
-                    <IoGlobeSharp color="green" size={30}/>
+                      <IoGlobeSharp color="green" size={30} />
                     </span>
                     <div className="font-medium">
                       <span className="block">setpakistan.com</span>
@@ -165,16 +166,24 @@ export default function Contact() {
                 <h2 className="py-2">Follow us On Social Networks</h2>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaLinkedin />
+                    <a href="https://www.aedin.com/company/moschampionshippakistan/" target="_blank">
+                      <FaLinkedin />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
+                    <a href="https://www.facebook.com/profile.php?id=61557079722386&mibextid=ZbWKwL" target="_blank">
+                      {" "}
+                      <FaFacebookF />
+                    </a>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
+                    <a href="https://www.instagram.com/invites/contact/?i=13k9p5mh2ecoa&utm_content=t0n5vps" target="_blank">
+                      <RiInstagramFill />
+                    </a>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaTwitter />
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"><a href="mailto:info@moschampionshippakistan.com" target="_blank">
+                    <MdEmail />
+                    </a>
                   </div>
                 </div>
               </div>

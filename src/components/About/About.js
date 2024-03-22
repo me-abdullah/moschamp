@@ -59,7 +59,7 @@ function About() {
               onClick={() => navigate("/about")}
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 font-bold rounded text-lg"
             >
-              Uncover Your State's Championship Info!
+              Uncover Your World Championship Info!
             </button>
           </div>
         </div>
