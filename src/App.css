@@ -23,7 +23,7 @@ body {
   color: #fff;
 }
 .qt-background {
-  background: url("../public/assest/champ.png") no-repeat;
+  background: url("../public/assest/bg-banner.jpeg") no-repeat;
   background-size: cover;
   padding: 100px 0;
   background-attachment: fixed;
@@ -49,7 +49,7 @@ body {
       rgba(17, 87, 64, 0.6),
       rgba(17, 87, 40, 0.7)
     ),
-    url("../public/assest/champ2.jpg") no-repeat;
+    url("../public/assest/bg-banner.jpeg") no-repeat;
   background-size: cover;
   padding: 100px 0;
   background-attachment: fixed;

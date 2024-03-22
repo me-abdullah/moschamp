@@ -122,11 +122,11 @@ export default function Navbar() {
                 </ul>
               </li>
             </ul>
-            <Link to="/funding" spy={true} smooth={true} offset={50} duration={500}>
+            {/* <Link to="/funding" spy={true} smooth={true} offset={50} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Funding
               </li>
-            </Link>
+            </Link> */}
             <HashLink
               to="/#contact"
               spy={true}
@@ -263,7 +263,7 @@ export default function Navbar() {
                   </ul>
                 </li>
               </ul>
-              <Link
+              {/* <Link
                 to="/funding"
                 spy={true}
                 smooth={true}
@@ -271,7 +271,7 @@ export default function Navbar() {
                 duration={500}
               >
                 <li className="py-4 text-sm">Funding</li>
-              </Link>
+              </Link> */}
               <a
                 href="/#contact"
                 spy={true}
@@ -279,7 +279,7 @@ export default function Navbar() {
                 offset={50}
                 duration={500}
               >
-                <li className=" text-sm cursor-pointer">Contact</li>
+                <li className="my-4 text-sm cursor-pointer">Contact</li>
               </a>
             </ul>
             <div className="pt-40">

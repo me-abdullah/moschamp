@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import Helmet from "react-helmet";
 
+import { IoGlobeSharp } from "react-icons/io5";
+import { MdCall,MdEmail } from "react-icons/md";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
@@ -114,7 +116,7 @@ export default function Contact() {
               </div>
               <div>
                 <h2 className="py-2">Let's Work Together</h2>
-                
+
                 <p className="py-4 text-justify">
                   MOS P.K National Championship: A pinnacle of skill, honor, and
                   competition, uniting expertise nationwide. Champions rise,
@@ -123,91 +125,44 @@ export default function Contact() {
               </div>
 
               <section>
-                <div className="flex flex-col space-y-4">
-                  {/* Phone */}
-                  <div className="flex items-center space-x-2">
-                    <svg
-                      className="w-6 h-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 3a2 2 0 012-2h14a2 2 0 012 2v18a2 2 0 01-2 2H5a2 2 0 01-2-2V3z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M15 8a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
-                    </svg>
-                    <span>+92-334-4967-167</span>
-                   
-                  </div>
+                <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+                  <a className="flex items-center">
+                    <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
+                      <MdCall color="green" size={30}/>
+                    </span>
+                    <div className="font-medium">
+                      <span className="block">+92-334-4967-167</span>
+                      <span className="block">+92-336-2525-920</span>
+                    </div>
+                  </a>
 
-                  {/* Email */}
-                  <div className="flex items-center space-x-2">
-                    <svg
-                      className="w-6 h-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M22 12h-6l-2 3h-4l-2-3H2"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 6l9 6 9-6"
-                      />
-                    </svg>
-                    <span>Contact@setpakistan.com</span>
-                   
-                  </div>
+                  <a className="flex items-center">
+                    <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center">
+                      <MdEmail color="green" size={30}/>
+                    </span>
+                    <div className="font-medium">
+                      <span className="block">Contact@setpakistan.com</span>
+                      <span className="block">info@moschampionshippakistan.com</span>
+                    </div>
+                  </a>
 
-                  {/* Website */}
-                  <div className="flex items-center space-x-2">
-                    <svg
-                      className="w-6 h-6"
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M19 13V5a2 2 0 00-2-2H7a2 2 0 00-2 2v8m14 0h0a2 2 0 012 2v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4a2 2 0 012-2h0"
-                      />
-                    </svg>
-                    <span>setpakistan.com</span>
-                 
-                  </div>
-                </div>
+                  <a className="flex items-center">
+                    <span className="w-12 h-12 mr-2 rounded-full flex items-center justify-center ">
+                    <IoGlobeSharp color="green" size={30}/>
+                    </span>
+                    <div className="font-medium">
+                      <span className="block">setpakistan.com</span>
+                      <span className="block">moschampionshippakistan.com</span>
+                    </div>
+                  </a>
+                </nav>
               </section>
 
               <div>
                 <p className="uppercase pt-8 text-[#115740] font-bold text-xl">
                   Connect With Us
                 </p>
+                <h2 className="py-2">Follow us On Social Networks</h2>
                 <div className="flex items-center justify-between py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <FaLinkedin />

@@ -63,7 +63,6 @@ const About = () => {
             . Students between the ages of 13 and 22 must earn the highest score
             in their city/province in one of the following categories:
           </p>
-
           <ul className="text-gray-600 list-disc text-left">
             <li> Microsoft Office Word (Office 2019)</li>
             <li> Microsoft Office Excel (Office 2019) </li>
@@ -72,7 +71,6 @@ const About = () => {
             <li>Microsoft Office Excel (Microsoft 365 Apps)</li>
             <li>Microsoft Office PowerPoint (Microsoft 365 Apps)</li>
           </ul>
-
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             Registration for the MOS Pakistan National Championship opens from{" "}
             <b>
@@ -124,44 +122,120 @@ const About = () => {
             will advance to the World Championship. Terms and conditions apply.
           </p>
           <p className="leading-relaxed text-xl text-[#115740] my-5 font-bold">
-            Students can enter their exam scores in one of two ways:
+            MOS Championship Pakistan Rules & Regulations
           </p>
           <ol className="text-gray-600">
             <li>
-              Enter an Exam at the Time of Testing: While sitting for a
-              qualifying MOS exam, you will be prompted to participate in the
-              Championship. Before the exam begins, a screen will appear with
-              competition information and an opt-in checkbox. To submit your
-              exam into the Championship, check the box and then select the OK
-              button. If you pass, your exam will automatically be submitted
-              into the Championship. If you do not want to submit your exam,
-              then you can opt out of the competition by not checking the
-              checkbox.
+              Before entering the MOS Pakistan National Championship 2024,
+              please take the time to carefully review the Official Rules. By
+              agreeing to these rules, participants commit to sitting for an
+              eligibility exam governed by international competition
+              regulations.
             </li>
             <li>
-              Enter an Exam You’ve Already Completed: Did you complete and pass
-              a qualifying exam but did not select to enter it into the
-              Championship? You can still enter your exam for a chance to be the
-              next P.K. National Champion! Simply follow these steps:
+              PARTICIPATION IN THIS CONTEST CONSTITUTES YOUR ACCEPTANCE OF THESE
+              OFFICIAL RULES
             </li>
           </ol>
-          <ul className="text-gray-600 list-disc text-left">
-            <li>Login to your Candidate Home Page</li>
-            <li>Click on the Championship link</li>
-            <li>
-              Select the exam you would like to enter into the Championship
+          <p className="text-gray-600">
+            Please take note of the following guidelines for participation in
+            the MOS Pakistan National Championship 2024:
+          </p>
+          <br />
+          <ol className="text-gray-600 list-disc text-left">
+            <li className="leading-relaxed text-[#115740] font-bold">
+              Eligibility:
             </li>
-            <li>Select the ‘Register Selected Exams’ button</li>
-          </ul>
+          </ol>
+          <p className="text-gray-600 text-left">
+            - Participants must be between the ages of 13 and 22 as of June 15,
+            2024. Minors must obtain permission from their parents or legal
+            guardians to participate.
+            <br />
+            - Participants must be registered students with an accredited
+            academic institution under the Ministry of Education in Pakistan
+            between<b><u> September 15, 2023, and August 1, 2024.</u></b>
+            <br />
+            - Students awaiting results holding valid student IDs between
+            <b><u>September 15, 2023, and August 1, 2024,</u></b> are eligible to participate.
+            <br />- Foreign students enrolled in accredited academic
+            institutions in Pakistan with valid student IDs between <b><u>September
+            15, 2023, and August 1, 2024,</u></b> are eligible to participate.
+          </p>
+          <br />
+          <ol className="text-gray-600 list-disc text-left">
+          <li className="leading-relaxed text-[#115740] font-bold">
+          Prohibited Participants:
+            </li>
+          </ol>
+          <p className="text-gray-600 text-left">
+            - Previous winners of the Microsoft Office Specialist (MOS) Pakistan
+            National Championship and Microsoft Office Specialist World
+            Championship are ineligible to compete in the 2024 competition.
+          </p>
+          <br />
+          <ol className="text-gray-600 list-disc text-left">
+          <li className="leading-relaxed text-[#115740] font-bold">
+          Competition Process:
+            </li>
+          </ol>
+          <p className="text-gray-600 text-left">
+            - Each participant must complete the qualification exam
+            to proceed in the competition.
+            <br />
+            - In case a national winner is unable to fulfill their role, the
+            first runner-up will take over as the national representative.
+            <br />
+            - The certification exam re-take policy will be enforced, and
+            failure to comply may result in disqualification.
+            <br /> - The organizer reserves the right to substitute any prize,
+            and prizes cannot be exchanged for cash.
+          </p><br/>
+          <ol className="text-gray-600 list-disc text-left">
+          <li className="leading-relaxed text-[#115740] font-bold">
+          Personal Information:
+            </li>
+          </ol>
+          <p className="text-gray-600 text-left">
+            - By participating, schools and participants consent to the
+            collection of personal information and the taking of
+            photographs/videos for marketing/promotion/publicity purposes.
+            <br />
+            - The competition rules must comply with Certiport, Inc.'s Rules and
+            Regulations.
+            <br />
+          </p>
+          <br />
+          <ol className="text-gray-600 list-disc text-left">
+          <li className="leading-relaxed text-[#115740] font-bold">
+          Miscellaneous:
+            </li>
+          </ol>
+          <p className="text-gray-600 text-left">
+            - The organizer reserves the right to alter the Rules and
+            Regulations without prior notice.
+            <br />
+            - Socio Engineering Technologies (SET) and Core Academy the right to
+            any media engagement involving participants of the MOS Pakistan
+            National Championship.
+            <br />
+            - The certification score submitted is final, and no correspondence
+            will be entertained.
+            <br />- The registration fee is non-refundable.
+            <br />
+            -Terms and conditions apply for the World Championship process.
+          <br /><br />
+          Participants thoroughly review and understand these guidelines before
+          entering the MOS Pakistan National Championship 2024.
+          </p>
         </section>
 
         {/* Video Section */}
         <section className="my-10">
-         
           <iframe
-             width="100%" // Set the width to 80%
-             height="515"
-             className="border-4 border-green-600"
+            width="100%" // Set the width to 80%
+            height="515"
+            className="border-4 border-green-600"
             src="https://www.youtube.com/embed/Q3SLm29D6NQ?si=vDpbCyxbraqlwXIq"
             title="YouTube video player"
             frameborder="0"
@@ -172,7 +246,7 @@ const About = () => {
         </section>
 
         {/* Additional Information Section */}
-        <section>
+        {/* <section>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             Check the leaderboards below to see how your school stacks up! Don’t
             see your state listed? Email MOSChampionship@pearson.com for a list
@@ -183,7 +257,7 @@ const About = () => {
             P.K. National Championship, please speak watch the Competition 101
             Webinar or email MOSchampionship@pearson.com.
           </p>
-        </section>
+        </section> */}
 
         {/* Call-to-Action Button */}
         <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-8">
