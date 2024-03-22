@@ -31,7 +31,7 @@ function Faq() {
             Championship presented by Certiport, Inc. is a national competition
             that tests students’ skills in Microsoft Office Word, Excel® and
             PowerPoint®. Top students are invited to represent their respective
-            cities at the P.K. National Championship a on May 18 – 19, 2024. At
+            cities at the P.K. National Championship a on<b><u> May 18 – 19, 2024</u></b>. At
             the P.K. National Championship Event, each student competes to be
             the champion in their category: Microsoft Word (Office 2019),
             Microsoft Excel (Office 2019), Microsoft PowerPoint (Office 2019),
@@ -44,7 +44,7 @@ function Faq() {
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             A: Participation in the P.K. National Championship is open to
             students enrolled in recognized degree-seeking academic
-            institutions, aged between 13 and 22 as of June 15 of the
+            institutions, aged between <b><u> 13 and 22 as of June 15</u></b> of the
             competition year. Proof of age and student status may be required.
             Previous participants of the P.K. National Championship round are
             eligible to compete, with the condition that they cannot compete in

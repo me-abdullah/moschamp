@@ -125,14 +125,14 @@ const About = () => {
             MOS Championship Pakistan Rules & Regulations
           </p>
         
-            <p>
+            <p className="text-gray-600">
               Before entering the MOS Pakistan National Championship 2024,
               please take the time to carefully review the Official Rules. By
               agreeing to these rules, participants commit to sitting for an
               eligibility exam governed by international competition
               regulations.
             </p>
-            <p>
+            <p className="text-gray-600">
             Participation In This Contest Constitutes Your Acceptance Of These
               Official Rules
             </p>
@@ -270,7 +270,7 @@ const About = () => {
 
         {/* Call-to-Action Button */}
         <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-8">
-          Where do I rank in your state?
+       Register Now..!
         </button>
       </div>
     </>
