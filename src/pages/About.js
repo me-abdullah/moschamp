@@ -31,7 +31,7 @@ const About = () => {
         </h1>
 
         {/* Welcome Section */}
-        <section>
+        <section className="mx-3">
           <p className="leading-relaxed text-xl text-[#115740] font-bold">
             Welcome to the 2024 Microsoft Office Specialist P.K. National
             Championship
@@ -48,7 +48,7 @@ const About = () => {
         </section>
 
         {/* Competition Process Section */}
-        <section>
+        <section className="mx-3">
           <p className="leading-relaxed text-xl text-[#115740] font-bold">
             How Do Students Compete in the Microsoft Office Specialist P.K.
             National Championship?
@@ -151,21 +151,28 @@ const About = () => {
             - Participants must be between the ages of 13 and 22 as of June 15,
             2024. Minors must obtain permission from their parents or legal
             guardians to participate.
-            <br />
-            - Participants must be registered students with an accredited
+            <br />- Participants must be registered students with an accredited
             academic institution under the Ministry of Education in Pakistan
-            between<b><u> September 15, 2023, and August 1, 2024.</u></b>
-            <br />
-            - Students awaiting results holding valid student IDs between
-            <b><u>September 15, 2023, and August 1, 2024,</u></b> are eligible to participate.
+            between
+            <b>
+              <u> September 15, 2023, and August 1, 2024.</u>
+            </b>
+            <br />- Students awaiting results holding valid student IDs between
+            <b>
+              <u>September 15, 2023, and August 1, 2024,</u>
+            </b>{" "}
+            are eligible to participate.
             <br />- Foreign students enrolled in accredited academic
-            institutions in Pakistan with valid student IDs between <b><u>September
-            15, 2023, and August 1, 2024,</u></b> are eligible to participate.
+            institutions in Pakistan with valid student IDs between{" "}
+            <b>
+              <u>September 15, 2023, and August 1, 2024,</u>
+            </b>{" "}
+            are eligible to participate.
           </p>
           <br />
           <ol className="text-gray-600 list-disc text-left">
-          <li className="leading-relaxed text-[#115740] font-bold">
-          Prohibited Participants:
+            <li className="leading-relaxed text-[#115740] font-bold">
+              Prohibited Participants:
             </li>
           </ol>
           <p className="text-gray-600 text-left">
@@ -175,13 +182,13 @@ const About = () => {
           </p>
           <br />
           <ol className="text-gray-600 list-disc text-left">
-          <li className="leading-relaxed text-[#115740] font-bold">
-          Competition Process:
+            <li className="leading-relaxed text-[#115740] font-bold">
+              Competition Process:
             </li>
           </ol>
           <p className="text-gray-600 text-left">
-            - Each participant must complete the qualification exam
-            to proceed in the competition.
+            - Each participant must complete the qualification exam to proceed
+            in the competition.
             <br />
             - In case a national winner is unable to fulfill their role, the
             first runner-up will take over as the national representative.
@@ -190,10 +197,11 @@ const About = () => {
             failure to comply may result in disqualification.
             <br /> - The organizer reserves the right to substitute any prize,
             and prizes cannot be exchanged for cash.
-          </p><br/>
+          </p>
+          <br />
           <ol className="text-gray-600 list-disc text-left">
-          <li className="leading-relaxed text-[#115740] font-bold">
-          Personal Information:
+            <li className="leading-relaxed text-[#115740] font-bold">
+              Personal Information:
             </li>
           </ol>
           <p className="text-gray-600 text-left">
@@ -207,8 +215,8 @@ const About = () => {
           </p>
           <br />
           <ol className="text-gray-600 list-disc text-left">
-          <li className="leading-relaxed text-[#115740] font-bold">
-          Miscellaneous:
+            <li className="leading-relaxed text-[#115740] font-bold">
+              Miscellaneous:
             </li>
           </ol>
           <p className="text-gray-600 text-left">
@@ -224,25 +232,26 @@ const About = () => {
             <br />- The registration fee is non-refundable.
             <br />
             -Terms and conditions apply for the World Championship process.
-          <br /><br />
-          Participants thoroughly review and understand these guidelines before
-          entering the MOS Pakistan National Championship 2024.
+            <br />
+            <br />
+            Participants thoroughly review and understand these guidelines
+            before entering the MOS Pakistan National Championship 2024.
           </p>
         </section>
 
         {/* Video Section */}
         <section className="my-10">
-        <iframe
-                width="100%" // Set the width to 80%
-                height="515"
-                className="border-4 border-green-600"
-              src="https://www.youtube.com/embed/4LffFW4qRzg?si=RxgIXen-fmMjIasa"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+          <iframe
+            width="100%" // Set the width to 80%
+            height="515"
+            className="border-4 border-green-600"
+            src="https://www.youtube.com/embed/4LffFW4qRzg?si=RxgIXen-fmMjIasa"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
         </section>
 
         {/* Additional Information Section */}

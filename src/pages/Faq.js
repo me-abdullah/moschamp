@@ -5,15 +5,14 @@ import { Link } from "react-router-dom";
 import { useSpring, animated } from "react-spring";
 
 function Faq() {
- 
-const fade = useSpring({
-  from: {
-    opacity: 0
-  },
-  to:{
-    opacity: 1
-  }
-}); 
+  const fade = useSpring({
+    from: {
+      opacity: 0,
+    },
+    to: {
+      opacity: 1,
+    },
+  });
   return (
     <section className="text-gray-600 relative">
       <animated.div className="container px-5 py-24 mx-auto" style={fade}>
@@ -24,17 +23,17 @@ const fade = useSpring({
         </div>
         <div className="lg:w-2/3 mx-auto">
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. What is Certiport’s Microsoft Office Specialist P.K. National
+            Q. What is Certiport’s Microsoft Office Specialist Pakistan National
             Championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. The 2024 Microsoft Office Specialist P.K. National Championship
-            presented by Certiport, Inc. is a national competition that tests
-            students’ skills in Microsoft Office Word, Excel® and PowerPoint®.
-            Top students are invited to represent their respective states at the
-            P.K. National Championship in Orlando, Florida on June 17 – 19,
-            2024. At the P.K. National Championship Event, each student competes
-            to be the champion in their category: Microsoft Word (Office 2019),
+            A. The 2024 Microsoft Office Specialist Pakistan National
+            Championship presented by Certiport, Inc. is a national competition
+            that tests students’ skills in Microsoft Office Word, Excel® and
+            PowerPoint®. Top students are invited to represent their respective
+            cities at the P.K. National Championship a on May 18 – 19, 2024. At
+            the P.K. National Championship Event, each student competes to be
+            the champion in their category: Microsoft Word (Office 2019),
             Microsoft Excel (Office 2019), Microsoft PowerPoint (Office 2019),
             Microsoft Word (Microsoft 365 Apps), Microsoft Excel (Microsoft 365
             Apps), or Microsoft PowerPoint (Microsoft 365 Apps).
@@ -43,128 +42,73 @@ const fade = useSpring({
             Q. Who can participate in the Championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. Anyone may participate in the qualification round of testing, but
-            to participate in the P.K. National Championship, candidates must be
-            students that are enrolled in an approved, degree-seeking academic
-            institution recognized by the state in which it operates. Candidates
-            must also be between the ages of 13 and 22 (as of June 15 of the
-            competition year). Individuals participating in the P.K. National
-            Championship must be able to provide proof of age and student status
-            upon request. <br />
+            A: Participation in the P.K. National Championship is open to
+            students enrolled in recognized degree-seeking academic
+            institutions, aged between 13 and 22 as of June 15 of the
+            competition year. Proof of age and student status may be required.
             Previous participants of the P.K. National Championship round are
-            eligible to compete; however, they cannot compete in the exam they
-            previously competed in during a P.K. National Championship round.
-            For example, a candidate who competed in Microsoft Word (Office
-            2016), Microsoft Word (Office 2019) or Microsoft Word (Microsoft 365
-            Apps) during a previous P.K. National Championship round can compete
-            in Microsoft Excel® or PowerPoint® in the qualifying round and the
-            P.K. National Championship Round of this year’s competition.
+            eligible to compete, with the condition that they cannot compete in
+            the same exam category as their previous participation. For
+            instance, a candidate who competed in Microsoft Word (Office 2016),
+            Microsoft Word (Office 2019), or Microsoft Word (Microsoft 365 Apps)
+            in a previous round can compete in Microsoft Excel® or PowerPoint®
+            in the current competition.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. What versions of Microsoft Office Specialist certifications will
-            the Microsoft Office Specialist P.K. National Championship include?
+          Q: What versions of Microsoft Office Specialist certifications will the Microsoft Office Specialist P.K. National Championship include?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. The P.K. National Championship will include the following six (6)
-            tracks: Microsoft Word (Office 2019), Microsoft Excel® (Office
-            2019), Microsoft PowerPoint® (Office 2019), Microsoft Word
-            (Microsoft 365 Apps), Microsoft Excel® (Microsoft 365 Apps) and
-            Microsoft PowerPoint® (Microsoft 365 Apps).{" "}
+          A: The P.K. National Championship will feature six (6) tracks, namely: Microsoft Word (Office 2019), Microsoft Excel® (Office 2019), Microsoft PowerPoint® (Office 2019), Microsoft Word (Microsoft 365 Apps), Microsoft Excel® (Microsoft 365 Apps), and Microsoft PowerPoint® (Microsoft 365 Apps).
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. Where can I take an eligible exam?
+          Q: Where can I take an exam?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. Eligible exams can be taken at any Certiport Authorized Testing
-            Center.
+          A: The MOS Championship Venue will be shared according to your city.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
             Q. How many times can I take an eligible exam for the championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. It’s recommended that candidates regularly check the qualifier
-            rankings and retest as needed to secure their seat at the
-            competition. There is no limit to the number of times a candidate
-            may test in any eligible exam track if they are not in violation of
-            the Microsoft Office Specialist exam retake policy. Candidates who
-            fail to abide by the Microsoft Office Specialist exam retake policy
-            will be immediately disqualified from the Championship. Certiport
-            retains the right to disqualify candidates for appropriate cause.
+          A: Candidates have only one chance to take the exam on the designated day and time at the venue provided by the MOS Championship team.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. How many different types of eligible exams can I submit to the
-            competition?
+          Q: How do I register for the MOS Championship?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. During the qualifying round, a candidate can participate in
-            multiple exam tracks. For example, they can submit a Microsoft Excel
-            (Office 2019) and Microsoft Excel (Microsoft 365 Apps). However, if
-            they qualify to participate in the P.K. National Championship, they
-            can only compete in only one exam track at the event.
+            A. Registration details and instructions will be provided on the MOS Championship website. Participants will need to complete the registration process within the specified timeframe to secure their spot in the competition.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. How are the champions in Word, Excel®, and PowerPoint® selected?
+          Q: Are there any registration fees?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. State Champions are announced at the end of the qualification
-            periods. The 2024 qualification periods are June 14, 2023 – December
-            15, 2023, and December 16, 2023 – May 3, 2024. Shortly after the
-            qualifier period ends, state champions and their proctors will be
-            notified. All state champions will be invited to the P.K. National
-            Championship to compete for the title of the P.K. Champion in
-            Microsoft Word (Office 2019), Microsoft Excel® (Office 2019),
-            Microsoft PowerPoint® (Office 2019), Microsoft Word (Microsoft 365
-            Apps), Microsoft Excel® (Microsoft 365 Apps), or Microsoft
-            PowerPoint® (Microsoft 365 Apps). During the P.K. National
-            Championship event, all state champions will be tested in a
-            proctored lab in their respective exam tracks. All participants in
-            the P.K. National Championship are responsible for preparing
-            themselves to compete in their respective exams.
+          A: Yes, there are registration fees. Participants are encouraged to review the registration guidelines for more information.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. How does Certiport select the winning score?
+          Q: Can previous winners participate again?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. If two competitors at the P.K. National Championship event have
-            the same high exam score on the unique comprehensive exams, the
-            finalist who completed the exam in the least amount of time will be
-            the winner. Decisions of judges are final. Winners will be notified
-            during the awards ceremony.
+          A: Previous winners of the MOS Championship may be eligible to participate again, subject to the rules and regulations of the competition. Please refer to the website's rules and regulation page for specific eligibility criteria.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. How many days after the deadline do you wait to invite
-            competitors to the MOS P.K. National Championship?
+          Q: How are winners determined?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. Invitations are usually sent about one to two weeks following the
-            last day of the qualification period. Emails will be sent directly
-            to the email address listed on the candidate’s Certiport portal
-            account.
+            A. Winners are determined based on their performance in the competition, including test scores, interviews, and other evaluation criteria. Detailed information about the evaluation process will be provided on the website.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. How much does it cost to attend the MOS P.K. National
-            Championship?
+          Q: Can foreign students participate in the MOS Championship? 
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. For each competitor and their one sponsored chaperone, there is
-            no registration fee. If competitors choose to bring additional
-            guests, there is an additional fee. Competitors are also required to
-            cover their own hotel and airfare to arrive at the event. The hotel
-            cost is around $165 per night.
+          A: Yes, foreign students enrolled in accredited academic institutions in Pakistan are eligible to participate in the MOS Championship.
           </p>
           <p className="leading-relaxed text-[#115740] font-bold text-base">
-            Q. What kind of exam do competitors take at the competition? Is it
-            the same as the certification exam?
+          Q: Who can I contact for assistance or further inquiries about the MOS Championship? 
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            A. No, competitors will be taking a completely new exam. Like the
-            certification exam, this will be project-based. However, since the
-            competition tests the most advanced students from around the
-            country, candidates are encouraged to study and prepare for topics
-            outside the certification exam. A great way to prepare is to take
-            the Microsoft Office Specialist Expert exams.
+          A: For additional information or inquiries about the MOS Championship,<br/> please contact [+92-3344967167 /+92-3362525920], or visit the MOS Championship website for updates and announcements.
           </p>
-          <p className="leading-relaxed text-[#115740] font-bold text-base">
+          {/* <p className="leading-relaxed text-[#115740] font-bold text-base">
             Q. What scholarships are awarded?
           </p>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
@@ -203,7 +147,7 @@ const fade = useSpring({
               {" "}
               MOSChampionship@pearson.com.
             </a>
-          </p>
+          </p> */}
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             Have a question that wasn’t answered?{" "}
             <Link to="/contact" className="text-blue-500">
