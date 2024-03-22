@@ -43,7 +43,7 @@ function App() {
         />
       </Helmet>
       <Navbar />
-      <Suspense fallback={<Loading />}>
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/rules" element={<Rules />} />
@@ -55,7 +55,7 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           {/* <Route path="/funding" element={<Funding />} /> */}
         </Routes>
-      </Suspense>
+     
       <Footer />
     </BrowserRouter>
   );
