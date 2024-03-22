@@ -125,17 +125,17 @@ const About = () => {
             MOS Championship Pakistan Rules & Regulations
           </p>
           <ol className="text-gray-600">
-            <li>
+            <p>
               Before entering the MOS Pakistan National Championship 2024,
               please take the time to carefully review the Official Rules. By
               agreeing to these rules, participants commit to sitting for an
               eligibility exam governed by international competition
               regulations.
-            </li>
-            <li>
-              PARTICIPATION IN THIS CONTEST CONSTITUTES YOUR ACCEPTANCE OF THESE
-              OFFICIAL RULES
-            </li>
+            </p>
+            <p>
+            Participation In This Contest Constitutes Your Acceptance Of These
+              Official Rules
+            </p>
           </ol>
           <p className="text-gray-600">
             Please take note of the following guidelines for participation in
