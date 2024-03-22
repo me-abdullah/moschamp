@@ -26,7 +26,7 @@ function App() {
 
   return (
     <BrowserRouter>
-    <BgAnimation/>
+    {/* <BgAnimation/> */}
       <Cursor scaling={isScaling} />
       <Helmet>
         <title>
