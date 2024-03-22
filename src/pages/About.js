@@ -270,7 +270,7 @@ const About = () => {
 
         {/* Call-to-Action Button */}
         <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-8">
-       Register Now..!
+      <a href="https://forms.office.com/r/7t6GfPTEZE" target="_blank"> Register Now..!</a>
         </button>
       </div>
     </>

@@ -53,8 +53,8 @@ function Deadline() {
               <p className="leading-relaxed">
               Unlock your path to glory. Register now for the P.K National Championship!
               </p>
-              <a className="text-green-500 inline-flex items-center mt-4">
-                Learn More
+              <a className="text-green-500 inline-flex items-center mt-4" href="https://forms.office.com/r/7t6GfPTEZE" target="_blank">
+                Register Now!
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -84,8 +84,8 @@ function Deadline() {
               <p className="leading-relaxed">
               Accept the challenge. It's time to show off your skills and compete!
               </p>
-              <a className="text-green-500 inline-flex items-center mt-4">
-                Learn More
+              <a className="text-green-500 inline-flex items-center mt-4" href="https://forms.office.com/r/7t6GfPTEZE" target="_blank">
+                Register Now!
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -115,8 +115,8 @@ function Deadline() {
               <p className="leading-relaxed">
               Your moment to shine. The final interview awaits.
               </p>
-              <a className="text-green-500 inline-flex items-center mt-4">
-                Learn More
+              <a className="text-green-500 inline-flex items-center mt-4" href="https://forms.office.com/r/7t6GfPTEZE" target="_blank">
+                Register Now!
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"
@@ -146,8 +146,8 @@ function Deadline() {
               <p className="leading-relaxed">
               MOS Pakistan National Championship, The Day of Winners' Announcement
               </p>
-              <a className="text-green-500 inline-flex items-center mt-4">
-                Learn More
+              <a className="text-green-500 inline-flex items-center mt-4" href="https://forms.office.com/r/7t6GfPTEZE" target="_blank">
+                Register Now!
                 <svg
                   className="w-4 h-4 ml-2"
                   viewBox="0 0 24 24"

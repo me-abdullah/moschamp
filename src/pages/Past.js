@@ -4,9 +4,9 @@ function Past() {
   return (
     <>
       <img
-        src="/assest/pastt-champ.jpg"
+        src="/assest/past.jpeg"
         alt="about"
-        className="w-full h-full md:pt-0 pt-[10vh] relative"
+        className="w-full h-full md:pt-15 pt-[10vh] relative"
         loading="lazy"
       />
       <div className="lg:w-2/3 mx-auto text-center my-10 relative">
@@ -20,15 +20,29 @@ function Past() {
             Congratulations to the 2023 Microsoft Office Specialist P.K.
             National Champions.
           </p>
-          <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
-            The 2023 MOS P.K. National Championship attracted more than 217,000
-            exam entries who competed to demonstrate their mastery of Microsoft
-            Office products.
+          <p className="leading-relaxed text-gray-600 text-justify text-base my-2 mx-3">
+            Waqas Ali, a diligent student hailing from Mirpur Mathelo in Ghotki
+            district, achieved a remarkable feat by securing a bronze medal in
+            PowerPoint 2013 at the esteemed Microsoft Office Specialist World
+            Championship (MOSWC) 2015, held in Dallas, Texas. Despite being the
+            sole participant representing Pakistan at the 14th MOSWC, with a
+            staggering 600,000 participants worldwide, Ali's dedication and
+            proficiency stood out amidst fierce competition in various Microsoft
+            Office products. In the culmination of this global event, 145
+            students from 47 countries engaged in an intense battle for top
+            honors. Expressing his sentiments, Ali, a student at FFC Grammar
+            School, humbly shared, "I am overwhelmed with emotions, but above
+            all, I am immensely proud of this achievement. This victory is not
+            mine alone; it belongs to my family, TEC Education Foundation, and
+            my friends, whose unwavering support propelled me forward." In
+            recognition of his exceptional performance, Certiport, the
+            organizing body, awarded Ali a prestigious scholarship worth $1,500,
+            along with a medal, a trophy, and valuable Microsoft products.
           </p>
         </section>
 
         {/* Competition Process Section */}
-        <section>
+        {/* <section>
           <p className="leading-relaxed text-gray-600 text-justify text-base my-2">
             The 2023 MOS P.K. Champions are:
           </p>
@@ -55,7 +69,7 @@ function Past() {
             In 2024, Certiport will host the Microsoft Office Specialist P.K.
             National Championship in Orlando, Florida on June 17- 19, 2024.
           </p>
-        </section>
+        </section> */}
 
         {/* Video Section */}
         <section className="my-10">
@@ -71,7 +85,6 @@ function Past() {
           ></iframe>
         </section>
 
-        
         <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-8">
           <a
             href="https://certiport.pearsonvue.com/Blog/2023/June/Announcing-the-2023-MOS-US-Champions"
