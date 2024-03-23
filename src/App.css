@@ -169,9 +169,9 @@ body {
   }
 }
 
-.backgroundimg{
+/* .backgroundimg{
   background-image: radial-gradient(circle,#0f9d3b,#0a4d1f);
-}
+} */
 
 @keyframes scaleAnimation {
   0% {
@@ -190,10 +190,6 @@ body {
 
 .custom-animation {
   animation: scaleAnimation 2s ease-in-out infinite; /* Apply the animation with infinite loop */
-}
-
-html,body{
-  height: -webkit-fill-available;
 }
 
 

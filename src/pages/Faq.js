@@ -1,10 +1,14 @@
 import React from "react";
+import { useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
 import { useSpring, animated } from "react-spring";
 
 function Faq() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
   const fade = useSpring({
     from: {
       opacity: 0,

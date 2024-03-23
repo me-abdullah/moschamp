@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 
-import {motion} from 'framer-motion';
+import { motion } from "framer-motion";
 
 import Helmet from "react-helmet";
 
 const About = () => {
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
+
   return (
     <>
       <img
@@ -126,19 +131,18 @@ const About = () => {
           <p className="leading-relaxed text-xl text-[#115740] my-5 font-bold">
             MOS Championship Pakistan Rules & Regulations
           </p>
-        
-            <p className="text-gray-600">
-              Before entering the MOS Pakistan National Championship 2024,
-              please take the time to carefully review the Official Rules. By
-              agreeing to these rules, participants commit to sitting for an
-              eligibility exam governed by international competition
-              regulations.
-            </p>
-            <p className="text-gray-600">
+
+          <p className="text-gray-600">
+            Before entering the MOS Pakistan National Championship 2024, please
+            take the time to carefully review the Official Rules. By agreeing to
+            these rules, participants commit to sitting for an eligibility exam
+            governed by international competition regulations.
+          </p>
+          <p className="text-gray-600">
             Participation In This Contest Constitutes Your Acceptance Of These
-              Official Rules
-            </p>
-          
+            Official Rules
+          </p>
+
           <p className="text-gray-600">
             Please take note of the following guidelines for participation in
             the MOS Pakistan National Championship 2024:
@@ -271,13 +275,18 @@ const About = () => {
         </section> */}
 
         {/* Call-to-Action Button */}
-        <motion.button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-8" 
-        whileHover={{
-          scale: 1.1,
-          textShadow: "0px 0px 8px rgb(34,197,94)",
-          boxShadow: "0px 0px 8px rgb(34,197,94)",
-        }}>
-      <a href="https://forms.office.com/r/7t6GfPTEZE" target="_blank"> Register Now..!</a>
+        <motion.button
+          className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-8"
+          whileHover={{
+            scale: 1.1,
+            textShadow: "0px 0px 8px rgb(34,197,94)",
+            boxShadow: "0px 0px 8px rgb(34,197,94)",
+          }}
+        >
+          <a href="https://forms.office.com/r/7t6GfPTEZE" target="_blank">
+            {" "}
+            Register Now..!
+          </a>
         </motion.button>
       </div>
     </>

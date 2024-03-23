@@ -1,8 +1,12 @@
 import React from "react";
+import { useEffect } from "react";
 
 import Contact from "../components/Contact/Contact";
 
 function Famee() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
   return (
     <>
       <img

@@ -30,13 +30,13 @@ export default function Navbar() {
       className={
         shadow
           ? "fixed w-full h-20 shadow-lg z-[100] border-b-4 border-green-600 text-white bg-white bg-opacity-40 py-2 backdrop-blur-md transition-all duration-300 ease-in-out dark:bg-slate-700 dark:bg-opacity-40"
-          : "fixed w-full h-20 z-[100] bg-white"
+          : "fixed w-full h-20 z-[100] bg-white border-b-4 border-green-600"
       }
     >
       <div className="flex justify-between md:justify-around items-center w-full h-full px-2 2xl:px-16">
         <img src="/assest/newlogo.png" alt="logo" width="70" height="30" loading="lazy"/>
         <div>
-          <ul className="hidden md:flex font-bold items-baseline">
+          <ul className="hidden md:flex font-bold items-baseline ">
             <HashLink
               to="/#header"
               spy={true}
@@ -44,7 +44,7 @@ export default function Navbar() {
               offset={50}
               duration={500}
             >
-              <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">Home</li>
+              <li className="ml-10 text-sm uppercase duration-300 hover:border-b-4 border-green-600 cursor-pointer ">Home</li>
             </HashLink>
             <HashLink
               to="/#about"
@@ -53,10 +53,10 @@ export default function Navbar() {
               offset={50}
               duration={500}
             >
-              <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">About</li>
+              <li className="ml-10 text-sm uppercase hover:border-b-4 border-green-600 duration-300 cursor-pointer">About</li>
             </HashLink>
             <ul className="list-none">
-              <li className="inline-block ml-10 text-sm uppercase relative group cursor-pointer">
+              <li className="inline-block ml-10 text-sm uppercase relative group cursor-pointer  hover:border-b-4 duration-300 border-green-600">
                 <HashLink
                   to="/#certified"
                   spy={true}
@@ -99,12 +99,12 @@ export default function Navbar() {
               offset={50}
               duration={500}
             >
-              <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">
+              <li className="ml-10 text-sm uppercase duration-300 cursor-pointer hover:border-b-4 border-green-600">
                 Promote
               </li>
             </HashLink>
             <ul className="list-none">
-              <li className="inline-block ml-10 text-sm uppercase relative group cursor-pointer">
+              <li className="inline-block ml-10 text-sm uppercase relative group cursor-pointer  hover:border-b-4 duration-300 border-green-600">
                 <HashLink
                   to="/#rule"
                   spy={true}
@@ -133,7 +133,7 @@ export default function Navbar() {
               offset={50}
               duration={500}
             >
-              <li className="ml-10 text-sm uppercase hover:border-b cursor-pointer">
+              <li className="ml-10 text-sm uppercase duration-300 hover:border-b-4 border-green-600 cursor-pointer">
                 Contact
               </li>
             </HashLink>

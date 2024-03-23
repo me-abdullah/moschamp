@@ -68,9 +68,9 @@ const Footer = () => {
               Support
             </h2>
             <nav className="list-none mb-10 space-y-4">
-              <li className="font-medium">
+              {/* <li className="font-medium">
                 <Link to="/https://www.linkedin.com/company/moschampionshippakistan/" target="_blank">Career</Link>
-              </li>
+              </li> */}
               {/* <li>
                 <Link to="/">24h Service</Link>
               </li> */}

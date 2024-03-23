@@ -82,7 +82,7 @@ export default function Contact() {
 
   return (
     <div
-      className="w-full min-h-screen lg:h-screen relative my-10"
+      className="w-full min-h-screen relative my-10"
       id="contact"
     >
       <Helmet>

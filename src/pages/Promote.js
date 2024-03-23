@@ -1,6 +1,9 @@
 import React from "react";
-
+import { useEffect } from "react";
 function Promote() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
   return (
     <div
       className="lg:w-2/3 mx-auto text-center relative"

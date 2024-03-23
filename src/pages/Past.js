@@ -1,6 +1,9 @@
 import React from "react";
-
+import { useEffect } from "react";
 function Past() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  },[]);
   return (
     <>
       <img

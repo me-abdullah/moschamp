@@ -4,6 +4,7 @@ import Helmet from "react-helmet";
 
 import Contact from "../components/Contact/Contact";
 function ContactPage() {
+  
   return (
     <div style={{ paddingTop: "70px" }}>
       <Helmet>
