@@ -3,6 +3,8 @@ import { useEffect } from "react";
 
 import Helmet from "react-helmet";
 
+import Typewriter from "typewriter-effect";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Deadline() {
@@ -27,7 +29,14 @@ function Deadline() {
         />
       </Helmet>
       <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font  mb-4 relative">
-      Mark Your Calendar
+     
+      <Typewriter
+      options={{
+        strings: ['Mark Your Calendar'],
+        autoStart: true,
+        loop: true, // Set loop to true for infinite loop
+      }}
+    />
       </h1>
       <div className="mycontainer">
             <div className="lines">

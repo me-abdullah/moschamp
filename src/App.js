@@ -10,6 +10,7 @@ import Loading from "./pages/Loading";
 import Cursor from "./components/Cursor/Cursor";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import Animation from "./components/animation/Animation";
 import BgAnimation from "./components/bganimation/BgAnimation";
 const About = lazy(() => import("./pages/About"));
 const Famee = lazy(() => import("./pages/Famee"));
@@ -25,7 +26,9 @@ function App() {
   const [isScaling, setIsScaling] = useState(false);
 
   return (
+    <>
     <BrowserRouter>
+    {/* <Animation/> */}
     {/* <BgAnimation/> */}
       <Cursor scaling={isScaling} />
       <Helmet>
@@ -43,6 +46,7 @@ function App() {
         />
       </Helmet>
       <Navbar />
+    
       <Suspense fallback={<Loading />}>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -57,7 +61,10 @@ function App() {
         </Routes>
       </Suspense>
       <Footer />
+      {/* <Animation/> */}
+   
     </BrowserRouter>
+    </>
   );
 }
 

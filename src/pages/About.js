@@ -1,5 +1,7 @@
 import React from "react";
 
+import {motion} from 'framer-motion';
+
 import Helmet from "react-helmet";
 
 const About = () => {
@@ -269,9 +271,14 @@ const About = () => {
         </section> */}
 
         {/* Call-to-Action Button */}
-        <button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-8">
+        <motion.button className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded mt-8" 
+        whileHover={{
+          scale: 1.1,
+          textShadow: "0px 0px 8px rgb(34,197,94)",
+          boxShadow: "0px 0px 8px rgb(34,197,94)",
+        }}>
       <a href="https://forms.office.com/r/7t6GfPTEZE" target="_blank"> Register Now..!</a>
-        </button>
+        </motion.button>
       </div>
     </>
   );

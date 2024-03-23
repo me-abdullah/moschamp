@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import {motion} from 'framer-motion';
 function Rules() {
   const navigate = useNavigate();
   useEffect(() => {
@@ -33,12 +35,17 @@ function Rules() {
               Learn the official rules to participate in the MOS P.K National
               Championship.
             </p>
-            <button
+            <motion.button
               onClick={() => navigate("/rules")}
               className="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 font-bold rounded"
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(34,197,94)",
+                boxShadow: "0px 0px 8px rgb(34,197,94)",
+              }}
             >
               Rules
-            </button>
+            </motion.button>
           </div>
           <div className="sm:w-1/2 mb-10 px-4" data-aos="flip-right">
             <div className="rounded-lg h-64 overflow-hidden">
@@ -56,12 +63,17 @@ function Rules() {
               Want to learn more about the MOS P.K National Championship? Visit
               our Frequently Asked Questions page for more information.
             </p>
-            <button
+            <motion.button
               onClick={() => navigate("/faq")}
               className="flex mx-auto mt-6 text-white bg-green-500 border-0 py-2 px-5 focus:outline-none hover:bg-green-600 font-bold rounded"
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(34,197,94)",
+                boxShadow: "0px 0px 8px rgb(34,197,94)",
+              }}
             >
               FAQ
-            </button>
+            </motion.button>
           </div>
         </div>
       </div>

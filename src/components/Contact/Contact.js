@@ -2,6 +2,8 @@ import React, { useState } from "react";
 
 import Helmet from "react-helmet";
 
+import Typewriter from "typewriter-effect";
+
 import { IoGlobeSharp } from "react-icons/io5";
 import { MdCall, MdEmail } from "react-icons/md";
 import { FaLinkedin, FaFacebookF } from "react-icons/fa";
@@ -100,7 +102,14 @@ export default function Contact() {
       </Helmet>
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-center text-3xl text-[#115740] font-bold">
-          Get In Touch
+          
+          <Typewriter
+      options={{
+        strings: ['Get In Touch'],
+        autoStart: true,
+        loop: true, // Set loop to true for infinite loop
+      }}
+    />
         </p>
 
         <div className="grid lg:grid-cols-5 gap-8">

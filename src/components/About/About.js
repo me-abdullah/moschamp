@@ -3,11 +3,14 @@ import { useEffect } from "react";
 
 import Helmet from "react-helmet";
 
+import Typewriter from "typewriter-effect";
+
 import { useNavigate } from "react-router-dom";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+import {motion} from 'framer-motion';
 function About() {
   const navigate = useNavigate();
  
@@ -44,7 +47,14 @@ function About() {
             className="title-font sm:text-4xl text-3xl mb-4 text-[#115740] font-bold"
             data-aos="fade-up"
           >
-            What is The MOS P.K National Championship?
+           
+            <Typewriter
+      options={{
+        strings: [' What is The MOS P.K National Championship?'],
+        autoStart: true,
+        loop: true, // Set loop to true for infinite loop
+      }}
+    />
           </h1>
           <div className="mycontainer">
             <div className="lines">
@@ -78,12 +88,17 @@ function About() {
            
           </section>
           <div className="flex justify-center relative">
-            <button
+            <motion.button
+            whileHover={{
+              scale: 1.1,
+              textShadow: "0px 0px 8px rgb(34,197,94)",
+              boxShadow: "0px 0px 8px rgb(34,197,94)",
+            }}
               onClick={() => navigate("/about")}
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 font-bold rounded text-lg"
             >
               Uncover Your National Championship Info!
-            </button>
+            </motion.button>
           </div>
         </div>
       </div>

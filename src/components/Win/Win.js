@@ -1,6 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
 
+import Typewriter from "typewriter-effect";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -29,7 +31,14 @@ function Win() {
       <div className="container px-5 py-24 mx-auto">
         <div className="text-center mb-20">
           <h1 className="sm:text-3xl text-2xl text-[#115740] font-bold text-center title-font relative mb-4">
-            What will I Win?
+          
+            <Typewriter
+      options={{
+        strings: ['  What will I Win?'],
+        autoStart: true,
+        loop: true, // Set loop to true for infinite loop
+      }}
+    />
           </h1>
           <div className="mycontainer">
             <div className="lines">

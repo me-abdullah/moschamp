@@ -3,11 +3,15 @@ import { useEffect } from "react";
 
 import { useNavigate } from "react-router-dom";
 
+import { motion } from "framer-motion";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import Typewriter from "typewriter-effect";
 function Fame() {
   const navigate = useNavigate();
-
+ 
   useEffect(() => {
     Aos.init({ duration: 3000 });
   }, []);
@@ -17,22 +21,40 @@ function Fame() {
         <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
           <div className="w-full sm:p-4 px-4 mb-6" data-aos="fade-right">
             <h1 className=" text-[#115740] font-bold text-3xl mb-2">
-            MOS Pakistan National Championship
+            <Typewriter
+      options={{
+        strings: ['MOS Pakistan National Championship'],
+        autoStart: true,
+        loop: true, // Set loop to true for infinite loop
+      }}
+    />
             </h1>
             <h4 className=" text-[#115740] font-bold mb-2">
-            Where World Champions Begin Their Journey!
+              Where World Champions Begin Their Journey!
             </h4>
             <div className="mycontainer">
-            <div className="lines">
-              <div className="mycircle"></div>
+              <div className="lines">
+                <div className="mycircle"></div>
+              </div>
             </div>
-          </div>
             <div className="leading-relaxed my-3 text-justify">
-            After the MOS Championship Award Ceremony, the journey doesn't end there. Our national champions are gearing up for the upcoming World Championship. But wait, there's more! Participants will stay engaged with counseling sessions, job opportunities events, MCT events, and a myriad of other enriching activities in the future.
+              After the MOS Championship Award Ceremony, the journey doesn't end
+              there. Our national champions are gearing up for the upcoming
+              World Championship. But wait, there's more! Participants will stay
+              engaged with counseling sessions, job opportunities events, MCT
+              events, and a myriad of other enriching activities in the future.
             </div>
-            <button onClick={() => navigate('/fame')} className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5">
+            <motion.button
+              onClick={() => navigate("/fame")}
+              className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5"
+              whileHover={{
+                scale: 1.1,
+                textShadow: "0px 0px 8px rgb(34,197,94)",
+                boxShadow: "0px 0px 8px rgb(34,197,94)",
+              }}
+            >
               Find Out More!
-            </button>
+            </motion.button>
           </div>
         </div>
         <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">

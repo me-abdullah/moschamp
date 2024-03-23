@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 import axios from 'axios';
 
+import {motion} from 'framer-motion';
 const Rules = () => {
     const [documentData, setDocumentData] = useState({});
     const [loading, setLoading] = useState(true);
@@ -50,9 +51,14 @@ const Rules = () => {
                     
                 </div>
                 <div className="flex justify-center lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:space-x-4 sm:space-y-0 space-y-4 sm:px-0 items-end mt-8">
-                    <button className="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none font-bold hover:bg-green-600 rounded text-lg">
+                    <motion.button className="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none font-bold hover:bg-green-600 rounded text-lg" 
+                    whileHover={{
+                        scale: 1.1,
+                        textShadow: "0px 0px 8px rgb(34,197,94)",
+                        boxShadow: "0px 0px 8px rgb(34,197,94)",
+                      }}>
                         <a href='https://certiport.filecamp.com/s/d/H8WEfz24of7MMnap'> Download Official Rules</a>
-                    </button>
+                    </motion.button>
                 </div>
             </div>
         </section>
