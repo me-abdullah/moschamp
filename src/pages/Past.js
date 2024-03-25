@@ -9,7 +9,7 @@ function Past() {
       <img
         src="/assest/past.jpeg"
         alt="about"
-        className="w-full h-full md:pt-15 pt-[10vh] relative"
+        className="w-full min-h-full md:pt-15 pt-[10vh] relative"
         loading="lazy"
       />
       <div className="lg:w-2/3 mx-auto text-center my-10 relative">

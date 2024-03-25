@@ -6,7 +6,7 @@ function Funding() {
       <img
         src="/assest/pastt-champ.jpg"
         alt="about"
-        className="w-full h-full md:pt-0 pt-[10vh] relative"
+        className="w-full min-h-full md:pt-0 pt-[10vh] relative"
         loading="lazy"
       />
       <div className="lg:w-2/3 mx-auto text-center my-10 relative">

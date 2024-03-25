@@ -33,7 +33,7 @@ function About() {
           content="Championship, Certification, MS-Office, Microsoft Champions"
         />
       </Helmet>
-
+   
       <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
         <img
           className="border-4 border-green-500 lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded "
@@ -42,12 +42,13 @@ function About() {
           data-aos="flip-right"
           loading="lazy"
         />
+         
         <div className="text-center lg:w-2/3 w-full">
           <h1
             className="title-font sm:text-4xl text-3xl mb-4 text-[#115740] font-bold"
             data-aos="fade-up"
           >
-           
+             <img src="/assest/circle.png" alt="" className="customimg"/>
             <Typewriter
       options={{
         strings: [' What is The MOS P.K National Championship?'],
@@ -56,6 +57,7 @@ function About() {
       }}
     />
           </h1>
+        
           <div className="mycontainer">
             <div className="lines">
               <div className="mycircle"></div>
@@ -72,6 +74,9 @@ function About() {
             championship, and the champions of this event progress to the MOS
             World Championship.
           </p>
+          <div className="float-right">
+        <img src="/assest/block.png" alt="" className="customimg customimg2"/>
+        </div>
           <section className="my-10 relative">
             <iframe
               width="100%" // Set the width to 80%
@@ -85,9 +90,10 @@ function About() {
               allowfullscreen
             ></iframe>
 
-           
+          
           </section>
           <div className="flex justify-center relative">
+            
             <motion.button
             whileHover={{
               scale: 1.1,
@@ -99,9 +105,11 @@ function About() {
             >
               Uncover Your National Championship Info!
             </motion.button>
+            
           </div>
         </div>
       </div>
+      
     </section>
   );
 }

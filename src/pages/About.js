@@ -15,7 +15,7 @@ const About = () => {
       <img
         src="/assest/about-page.jpeg"
         alt="about"
-        className="w-full h-full md:pt-0 pt-[10vh] relative"
+        className="w-full min-h-full md:pt-0 pt-[10vh] relative"
         loading="lazy"
       />
       <Helmet>

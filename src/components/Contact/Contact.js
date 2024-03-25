@@ -85,6 +85,9 @@ export default function Contact() {
       className="w-full min-h-screen relative my-10"
       id="contact"
     >
+     <div className="float-right">
+        <img src="/assest/block.png" alt="" className="customimg customimg2"/>
+        </div>
       <Helmet>
         <title>
           Contact Microsoft Championship Pakistan | Get in Touch for
@@ -113,8 +116,8 @@ export default function Contact() {
         </p>
 
         <div className="grid lg:grid-cols-5 gap-8">
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-lg shadow-gray-400 rounded-xl p-4">
-            <div className="lg:p-4 h-full">
+          <div className="col-span-3 lg:col-span-2 w-full min-h-full shadow-lg shadow-gray-400 rounded-xl p-4">
+            <div className="lg:p-4 min-h-full">
               <div>
                 <img
                   className="rounded-xl hover:scale-105 ease-in duration-300"

@@ -40,6 +40,7 @@ function Win() {
       }}
     />
           </h1>
+          
           <div className="mycontainer">
             <div className="lines">
               <div className="mycircle"></div>
@@ -50,6 +51,9 @@ function Win() {
             Elevate your experience, win unique rewards, and celebrate your
             achievements.
           </p>
+        </div>
+        <div className="float-right">
+        <img src="/assest/circle.png" alt="" className="customimg"/>
         </div>
         <div className="flex flex-wrap justify-center -m-4">
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
@@ -155,6 +159,7 @@ function Win() {
               </a>
             </nav>
           </div>
+          
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
             <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
               2<sup>nd</sup> Place
@@ -230,7 +235,9 @@ function Win() {
               </a>
             </nav>
           </div>
+          
           <div className="p-4 lg:w-1/4 sm:w-1/2 w-full">
+            
             <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
               3<sup>rd</sup> Place
             </h2>
@@ -307,6 +314,7 @@ function Win() {
           </div>
         </div>
       </div>
+      
     </section>
   );
 }

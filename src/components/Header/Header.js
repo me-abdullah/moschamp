@@ -72,7 +72,7 @@ export default function Header() {
     <img
     src="/assest/home-page.jpg"
     alt="about"
-    className="w-full h-full md:pt-11 pt-[10vh] relative"
+    className="w-full min-h-full md:pt-11 pt-[10vh] relative"
     loading="lazy"
   />
 

@@ -29,7 +29,7 @@ export default function Navbar() {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-lg z-[100] border-b-4 border-green-600 text-white bg-white bg-opacity-40 py-2 backdrop-blur-md transition-all duration-300 ease-in-out dark:bg-slate-700 dark:bg-opacity-40"
+          ? "fixed w-full h-20 shadow-lg z-[100] border-b-4 border-green-600 text-black bg-white bg-opacity-40 py-2 backdrop-blur-md transition-all duration-300 ease-in-out dark:bg-slate-700 dark:bg-opacity-40"
           : "fixed w-full h-20 z-[100] bg-white border-b-4 border-green-600"
       }
     >

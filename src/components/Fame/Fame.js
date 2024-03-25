@@ -17,8 +17,10 @@ function Fame() {
   }, []);
   return (
     <section className="text-gray-600">
+      
       <div className="container px-5 py-24 mx-auto flex flex-wrap">
         <div className="flex flex-wrap -mx-4 mt-auto mb-auto lg:w-1/2 sm:w-2/3 content-start sm:pr-10">
+        
           <div className="w-full sm:p-4 px-4 mb-6" data-aos="fade-right">
             <h1 className=" text-[#115740] font-bold text-3xl mb-2">
             <Typewriter
@@ -29,6 +31,7 @@ function Fame() {
       }}
     />
             </h1>
+            
             <h4 className=" text-[#115740] font-bold mb-2">
               Where World Champions Begin Their Journey!
             </h4>
@@ -44,6 +47,9 @@ function Fame() {
               engaged with counseling sessions, job opportunities events, MCT
               events, and a myriad of other enriching activities in the future.
             </div>
+            <div className="float-right">
+        <img src="/assest/circle.png" alt="" className="customimg"/>
+        </div>
             <motion.button
               onClick={() => navigate("/fame")}
               className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded my-5"
@@ -57,15 +63,17 @@ function Fame() {
             </motion.button>
           </div>
         </div>
+        
         <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
           <img
-            className="object-cover object-center w-full h-full border-4 border-green-500"
+            className="object-cover object-center w-full min-h-full border-4 border-green-500"
             src="/assest/fame-banner.jpeg"
             alt="stats"
             data-aos="flip-right"
             loading="lazy"
           />
         </div>
+        
       </div>
     </section>
   );

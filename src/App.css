@@ -1,7 +1,6 @@
 body {
   /* font-family: "Poppins", sans-serif; */
   font-family: "Roboto", sans-serif;
-  
 }
 /* width */
 ::-webkit-scrollbar {
@@ -189,8 +188,23 @@ body {
 }
 
 .custom-animation {
-  animation: scaleAnimation 2s ease-in-out infinite; /* Apply the animation with infinite loop */
+  /* animation: scaleAnimation 5s ease-in-out infinite;  */
 }
 
-
-
+.customimg {
+  width: 70px; /* Set the width */
+  height: auto; /* Maintain aspect ratio */
+  animation: circularMotion 5s infinite linear; /* Circular animation */
+}
+.customimg2 {
+  width: 100px; /* Set the width */
+  
+}
+@keyframes circularMotion {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

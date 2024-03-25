@@ -7,13 +7,17 @@ import Typewriter from "typewriter-effect";
 
 import Aos from "aos";
 import "aos/dist/aos.css";
+
+import Tilt from 'react-parallax-tilt';
 function Deadline() {
   useEffect(() => {
     Aos.init({ duration: 5000 });
   }, []);
 
   return (
-    <section className=" overflow-hidden" id="deadline">
+    
+    <section className="overflow-hidden" id="deadline">
+       <img src="/assest/ele.png" alt="" className="customimg"/>
       <Helmet>
         <title>
           Microsoft Office Championship Events in Pakistan | Join the
@@ -38,16 +42,20 @@ function Deadline() {
           }}
         />
       </h1>
+      
       <div className="mycontainer">
         <div className="lines">
           <div className="mycircle"></div>
         </div>
       </div>
       <div className="container px-5 py-24 mx-auto">
-        <div className="-my-8 divide-y-2 divide-gray-100 ">
+        <div className="-my-8 divide-y-2 divide-green-500">
+          <Tilt>
           <div
+          
             className="py-8 flex flex-wrap md:flex-nowrap"
             data-aos="fade-right"
+            
           >
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
               <span className="title-font text-[#115740] font-bold">DATE</span>
@@ -83,8 +91,11 @@ function Deadline() {
                   <path d="M12 5l7 7-7 7" />
                 </svg>
               </a>
+
             </div>
           </div>
+          </Tilt>
+          <Tilt>
           <div
             className="py-8 flex flex-wrap md:flex-nowrap"
             data-aos="fade-left"
@@ -124,6 +135,8 @@ function Deadline() {
               </a>
             </div>
           </div>
+          </Tilt>
+          <Tilt>
           <div
             className="py-8 flex flex-wrap md:flex-nowrap "
             data-aos="fade-right"
@@ -160,6 +173,8 @@ function Deadline() {
               </a>
             </div>
           </div>
+          </Tilt>
+          <Tilt>
           <div
             className="py-8 flex flex-wrap md:flex-nowrap"
             data-aos="fade-left"
@@ -197,8 +212,11 @@ function Deadline() {
               </a>
             </div>
           </div>
+          </Tilt>
         </div>
       </div>
+      
+     
     </section>
   );
 }
