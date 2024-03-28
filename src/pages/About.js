@@ -95,7 +95,7 @@ const About = () => {
             <br />
             <ol className="text-gray-600 list-disc text-left">
               <li>
-                <b>"Time to Compete":</b> Testing will take place on{" "}
+                <b className="text-[#0a4d1f]">"Time to Compete":</b> Testing will take place on{" "}
                 <b>
                   <u>May 18 & 19, 2024.</u>
                 </b>
@@ -103,7 +103,7 @@ const About = () => {
                 along with their exam time slot, via email and phone call.
               </li>
               <li>
-                <b> Interviews:</b> High-scoring students from the testing phase
+                <b className="text-[#0a4d1f]"> Interviews:</b> High-scoring students from the testing phase
                 will undergo interviews on{" "}
                 <b>
                   <u> May 25 & 26, 2024.</u>

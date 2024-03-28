@@ -61,7 +61,7 @@ function Win() {
               1<sup>st</sup> Place
             </h2>
 
-            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+            <nav className="flex flex-col sm:items-start sm:text-left text-center -mb-1 space-y-2.5">
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
@@ -72,7 +72,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">$350</span>
+                <span className="text-center font-bold">$1500</span>
               </a>
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
@@ -164,7 +164,7 @@ function Win() {
             <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
               2<sup>nd</sup> Place
             </h2>
-            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+            <nav className="flex flex-col sm:items-start sm:text-left text-center -mb-1 space-y-2.5">
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
@@ -175,7 +175,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">$175</span>
+                <span className="text-center font-bold">$1000</span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
@@ -241,7 +241,7 @@ function Win() {
             <h2 className="relative title-font tracking-widest text-[#115740] font-bold mb-4 text-xl text-center sm:text-left custom-animation">
               3<sup>rd</sup> Place
             </h2>
-            <nav className="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
+            <nav className="flex flex-col sm:items-start sm:text-left text-center -mb-1 space-y-2.5">
               <a data-aos="fade-down" className="flex items-center">
                 <span className="w-8 h-8 mr-2 rounded-full flex items-center justify-center">
                   <img
@@ -252,7 +252,7 @@ function Win() {
                     height="50"
                   />
                 </span>
-                <span className="text-center font-bold">$115</span>
+                <span className="text-center font-bold">$500</span>
               </a>
 
               <a data-aos="fade-down" className="flex items-center">
